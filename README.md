@@ -1,2 +1,2 @@
 # Projeto Squad 2 - Trabalho - RecodePro
- Projeto de inclusão para surdos com curso de programação de dispositivos
+ Projeto de inclusão para surdos  com cursos profissionalizantes na área de programação.
