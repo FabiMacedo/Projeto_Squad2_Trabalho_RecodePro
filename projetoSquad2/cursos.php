@@ -22,6 +22,9 @@
         <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
+                    <a class="nav-link" href="index.php"><img src="./imagens/logosinal.jpg" width="70px"><span class="sr-only">(página atual)</span></a>
+                </li>
+                <li class="nav-item active">
                     <a class="nav-link" href="index.php">Home <span class="sr-only">(página atual)</span></a>
                 </li>
                 <li class="nav-item">
