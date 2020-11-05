@@ -1,0 +1,65 @@
+
+.fundocontato {
+    height: 500px;
+    background-image: url(../imagens/banner_contato.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quadrado {
+   
+    width: 400px;
+    height: 450px;
+    background-color: rgb(197, 196, 196);
+    border-radius: 25px;
+    padding: 16px;
+    margin: 40px;
+}
+
+.quadrado h1 {
+    font-size: 32px;
+    text-align: center;
+    color: rgb(255, 111, 22);
+    
+}
+
+.quadrado input {
+    display: block;
+    width: 80%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin: 16px auto 0px;
+    padding-left: 8px;
+}
+
+.quadrado button {
+    display: block;
+    background-color: #616363;
+    width: 80%;
+    height: 40px;
+    border: 0;
+    border-radius: 4px;
+    text-align: center;
+    margin: 16px auto 0px;
+    color: white;
+    font-weight: bold;
+}
+
+.quadrado textarea {
+    display: block;
+    width: 80%;
+    height: 100px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin: 16px auto 0px;
+    padding-left: 8px;
+}
+
+.gambiarra {
+    text-align: center;
+    padding: 15px;
+    margin-right: 15px;
+}

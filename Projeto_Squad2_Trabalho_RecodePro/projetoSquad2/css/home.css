@@ -1,0 +1,15 @@
+.jumbotron{ 
+    height: 500px;
+    background-image: url('../imagens/banner_home.png');
+}
+
+.jumbotron h1{
+    margin-top: -50px;
+    color: rgb(255, 111, 22);
+    font-weight: bold;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+.jumbotron p{
+    font-size: 16px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
