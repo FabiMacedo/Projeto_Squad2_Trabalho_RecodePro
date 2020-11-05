@@ -1,8 +1,15 @@
 main { /* classe pai */
     display: flex;
+<<<<<<< Updated upstream
     width: 100vw;
     height: 100vh;
 
+=======
+    width:100vw;
+    height: 60vh;
+    /* background-image: url('../imagens/banner_login.png');
+    background-repeat: no-repeat; */
+>>>>>>> Stashed changes
 
 }
 
@@ -10,22 +17,35 @@ main { /* classe pai */
     display: flex;
     align-items: center;
     justify-content: center;
+<<<<<<< Updated upstream
     width: 100%; /*Vai ocupar 50% da largura da classe pai "main"*/
     /*height: 100%;/* Vai ocupar 100% da altura da classe pai "main"*/
     background-color: white;
     
+=======
+    width: 50%;/* Vai ocupar 50% da largura da classe pai "main"*/
+    height: 100%;/* Vai ocupar 100% da altura da classe pai "main"*/
+    background-color: rgb(255, 111, 22);
+>>>>>>> Stashed changes
 }
 
 .card{
-    /* background-color: rgb(255, 111, 22); */
     width: 50%;
+<<<<<<< Updated upstream
 
+=======
+    height: 50%;
+    background-color: rgb(255, 111, 22);
+    border: 0px;
+>>>>>>> Stashed changes
 }
 
 .card h1{
     justify-content: center;
     text-align: center;
-    margin-bottom: 32px;
+    margin-bottom: 25px;
+    font-size: 28px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .card input{
@@ -63,9 +83,20 @@ main { /* classe pai */
     display: flex;
     align-items: center;
     justify-content: center;
+<<<<<<< Updated upstream
     width: 100%;/* Vai ocupar 50% da largura da classe pai "main"*/
     /*height: 100%;/* Vai ocupar 100% da altura da classe pai "main"*/
     background-color: rgb(0, 194, 203);
+=======
+    width: 50%;/* Vai ocupar 50% da largura da classe pai "main"*/
+    height: 100%;/* Vai ocupar 100% da altura da classe pai "main"*/
+    background-color: blueviolet;
+}
+
+.painel-imagem img{
+    width: 50%;
+    height: 50%;
+>>>>>>> Stashed changes
 }
 
 
