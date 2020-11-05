@@ -11,26 +11,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-
 </head>
 
-<body>
-
+<body style="background: rgb(0, 194, 203)">
     <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#">
-            <!-- Navbar --></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
         <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.php"><img src="./imagens/logosinal.jpg" width="70px"><span class="sr-only">(página atual)</span></a>
+                    <a class="nav-link" href="index.php"><img src="./imagens/logosinal.jpg" width="70px"></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.php">Home <span class="sr-only">(página atual)</span></a>
+                    <a class="nav-link" href="index.php">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="quemsomos.php">Quem somos</a>
@@ -55,15 +46,11 @@
                     <a class="nav-link" href="faleconosco.php">Fale conosco</a>
                 </li>
             </ul>
-            <!--  <form class="form-inline my-2 my-lg-0 ">
-                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-                <button class="btn text-ligth btn-info my-2 my-sm-0" type="submit">Pesquisar</button>
-            </form> -->
         </div>
     </nav>
 
     <div class="jumbotron" style="height: 900px;">
-        <div class="card" style="background-color: orange;">
+        <div class="card" style="background-color:  rgb(255, 111, 22);">
             <h1>Entre ou Cadastre-se</h1>
             <form action="login_usuario.php" method="post">
                 <input type="email" name="email" placeholder="Email">
@@ -73,7 +60,5 @@
             </form>
         </div>
     </div>
-
 </body>
-
 </html>

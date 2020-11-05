@@ -13,20 +13,15 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     
 </head>
-<body>
+<body style="background: rgb(0, 194, 203)">
 <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#"><!-- Navbar --></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-    
         <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.php"><img src="./imagens/logosinal.jpg" width="70px"><span class="sr-only">(página atual)</span></a>
+                    <a class="nav-link" href="index.php"><img src="./imagens/logosinal.jpg" width="70px"></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.php">Home <span class="sr-only">(página atual)</span></a>
+                    <a class="nav-link" href="index.php">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="quemsomos.php">Quem somos</a>
@@ -36,7 +31,7 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="cursos.php">HTML5</a>
                         <div class="dropdown-divider"></div> 
-                            <a class="dropdown-item" href="cursos.php">CSS</a>
+                        <a class="dropdown-item" href="cursos.php">CSS</a>
                         <div class="dropdown-divider"></div>
                     </div>
                 </li>
@@ -51,45 +46,26 @@
                 <a class="nav-link" href="faleconosco.php">Fale conosco</a>
                 </li>
             </ul>
-           <!--  <form class="form-inline my-2 my-lg-0 ">
-                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-                <button class="btn text-ligth btn-info my-2 my-sm-0" type="submit">Pesquisar</button>
-            </form> -->
         </div>
     </nav>
 
     <main class="jumbotron">
-
         <div class="fundocontato">
-            
             <div class="quadrado">
-
-            <form action="registros.php" method="post">
-            <h1>Fale Conosco!</h1>
-            <input type="text" name= "nome" placeholder="Digite o seu nome" required/>
-            <input type="email" name="email" placeholder="Digite o seu e-mail" required/>
-            <input type="text" name="telefone" placeholder="Digite o seu telefone" required/>
-            <textarea name="mensagem" placeholder="Digite aqui a sua mensagem" required></textarea>
-            <button type="submit">Enviar!</button>
-            </form>
-            
+                <form action="registros.php" method="post">
+                    <h1>Fale Conosco!</h1>
+                    <input type="text" name= "nome" placeholder="Digite o seu nome" required/>
+                    <input type="email" name="email" placeholder="Digite o seu e-mail" required/>
+                    <input type="text" name="telefone" placeholder="Digite o seu telefone" required/>
+                    <textarea name="mensagem" placeholder="Digite aqui a sua mensagem" required></textarea>
+                    <button type="submit">Enviar!</button>
+                </form>
             </div>
-
-
         </div>
         <footer class="gambiarra">
-                
                 <h5>Sinal Code</h5>
                 <h6>email: recode2020spt2squad2@gmail.com</h6>
-
         </footer>
-     
-            
-                
-          
-        
-
-
     </main>
-    
-    </body>
+</body>
+</html>

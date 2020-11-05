@@ -1,17 +1,26 @@
+body{
+    background-color: rgb(0, 194, 203);
+}
 .jumbotron{ 
     height: 1425px;
     background-image: url('../imagens/banner_home4.png');
     background-size: cover;
 }
 
+.jumbotron img{
+    width: 350px;
+    height: 180px;
+    margin-top: -70px;
+    margin-left: 150px;
+}
+
 .jumbotron h1{
-    margin-top: -50px;
     color: rgb(255, 111, 22);
     font-weight: bold;
     text-shadow: black 0.1em 0.1em 0.2em;
 }
 .jumbotron p{
-    font-size: 16px;
+    font-size: 24px;
     text-shadow: black 0.1em 0.1em 0.2em;
 }
 
