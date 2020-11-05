@@ -60,12 +60,17 @@
     <main>
         <div class="jumbotron">
             <div class="text-white text-left pt-5 px-3 " >
-                <h1 class="h1-responsive mb-5">Curso de programação para surdos</h1>
-                <p class="mx-2 mb-2">A <b>Sinal Code</b>, desenvolveu uma plataforma de cursos de programação <br> exclusivo para surdos. Todas as aulas são adaptadas para a linguagem de <br>sinais (libras) e legendadas para um melhor aproveitamento.</p>
-                <p class="mx-2 mb-2">O curso é 100% gratuito! <br>Contamos com o patrocínio de empresas parceiras para este projeto social.</p>
+                <h1 class="h4-responsive mb-4">Curso de programação para surdos</h1>
+                    <p class="d-flex mx-2 mb-2 text-center">A Sinal Code desenvolveu uma plataforma digital
+                        de cursos na área de programação,<br> elaborados para atender exclusivamente
+                        pessoas com surdez. Todas as aulas são<br>adaptadas com a linguagem de sinais (libras) e legenda,
+                        para um melhor<br>desenvolvimento no ensino-aprendizagem.</p>
+                    <br>
+                    <p class="d-flex mx-2 mb-4 text-center">O curso ofertado é 100% gratuito. Contamos com o patrocínio de
+                        empresas parceiras <br> nesta empreitada de cunho social.</p>
             </div>
 
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
             
             
             <div class="text-white text-left pt-5 px-3" >

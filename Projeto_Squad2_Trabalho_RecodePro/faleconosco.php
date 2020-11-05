@@ -58,7 +58,7 @@
         </div>
     </nav>
 
-    <main class="bloco">
+    <main class="jumbotron">
 
         <div class="fundocontato">
             

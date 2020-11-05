@@ -1,15 +1,19 @@
 
-.fundocontato {
-    height: 500px;
+.jumbotron {
+    height: 1000px;
     background-image: url(../imagens/banner_contato.png);
     background-size: cover;
-    display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.fundocontato {
+    display: flex;
+    justify-content: center;
+}
+
 .quadrado {
-   
+
     width: 400px;
     height: 450px;
     background-color: rgb(197, 196, 196);
