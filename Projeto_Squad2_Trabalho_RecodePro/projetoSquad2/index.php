@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title></title>
+    <title>Sinal Code</title>
     <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css/home.css">
 
@@ -64,11 +64,26 @@
                 <p class="mx-2 mb-2">A <b>Sinal Code</b>, desenvolveu uma plataforma de cursos de programação <br> exclusivo para surdos. Todas as aulas são adaptadas para a linguagem de <br>sinais (libras) e legendadas para um melhor aproveitamento.</p>
                 <p class="mx-2 mb-2">O curso é 100% gratuito! <br>Contamos com o patrocínio de empresas parceiras para este projeto social.</p>
             </div>
-        </div>
-        <div class="view overlay rounded-top">
-            <img src="imagens/banner_home2.png" class="img-fluid" alt="Informacoes">
-        </div>
 
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            
+            
+            <div class="text-white text-left pt-5 px-3" >
+                <h1 class="h1-responsive mb-5 text-center text-warning">Porque estudar programação</h1>
+                <br><br>
+                <section class="container">
+                <div class="box1">
+                    <p class="text-center"><b class="text-warning">MERCADO</b><br><br> Alta demanda por profissionais no mercado de trabalho</p>
+                </div>
+                <div class="box2">
+                    <p class="text-center"><b class="text-warning">SALÁRIOS</b><br><br><b class="text-warning">R$ 5.000,00</b><br><br> média salarial</p>
+                </div>
+                <div class="box3">
+                    <p class="text-center"><b class="text-warning">ADAPTAÇÃO</b><br><br> Fácil adaptação do surdo nos processos de desenvolvimento do trabalho</p>
+                </div>
+                </section>
+            </div>
+        </div>
     </main>
 </body>
 </html>

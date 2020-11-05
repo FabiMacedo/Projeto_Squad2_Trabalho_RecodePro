@@ -1,6 +1,7 @@
 .jumbotron{ 
-    height: 500px;
-    background-image: url('../imagens/banner_home.png');
+    height: 1425px;
+    background-image: url('../imagens/banner_home4.png');
+    background-size: cover;
 }
 
 .jumbotron h1{
@@ -12,4 +13,42 @@
 .jumbotron p{
     font-size: 16px;
     text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    grid-gap: 20px;
+
+}
+
+.box1 {
+    border-style: groove;
+    width: 25%;
+    border-radius: 8px;
+}
+
+.box1 p {
+    font-size: 24px;
+}
+
+.box2 {
+    border-style: groove;
+    width: 25%;
+    border-radius: 8px;
+
+}
+
+.box2 p {
+    font-size: 24px;
+}
+
+.box3 {
+    border-style: groove;
+    width: 25%;
+    border-radius: 8px;
+}
+
+.box3 p {
+    font-size: 24px;
 }
