@@ -9,14 +9,27 @@
     $sql = "INSERT INTO registros (nome, email, telefone, mensagem) values ('$nome', '$email', '$telefone', '$mensagem')";
     mysqli_query($conn, $sql);
 
-    if ($conn) {
-        echo "Conexão bem sucedida!";
-    }
-    else {
-        die("Erro ao realizar conexão " . mysqli_connect_error());
-    }
+    
 
-    echo "<script>alert('A sua mensagem foi enviada com sucesso!')window.location.href= 'index.php'</script>";
+    
+    if (strlen($nome) > 3 && strlen($mensagem) > 3) {
+        $conn = mysqli_connect("localhost", "root", "", "sinalcode");
+        $resultado_consulta = $conn->query("SELECT * from registros where nome = '$nome' AND email = '$email' AND telefone = '$telefone' AND mensagem = '$mensagem'");
+        $resgistros = mysqli_fetch_all($resultado_consulta);
+    
+        $_SESSION['nome'] = $registros[0][1];
+        $_SESSION['email'] = $registros[0][2];
+        $_SESSION['telefone'] = $registros[0][3];
+        $_SESSION['mensagem'] = $registros[0][4];
+
+    
+        header('Location: faleconosco.php');
+        
+    }
+    
+    else {
+        echo "<script>alert('Nome ou Mensagem inválidos!')location.href = 'login.php'</script>";
+    }
 
     
     

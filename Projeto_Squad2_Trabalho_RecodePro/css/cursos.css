@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(0, 194, 203);
+}
+.jumbotron{ 
+    height: 1425px;
+    background-image: url('../imagens/banner_home4.png');
+    background-size: cover;
+}
+
+.jumbotron p{
+    font-size: 24px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+

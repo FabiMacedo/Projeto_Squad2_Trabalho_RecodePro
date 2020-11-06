@@ -51,7 +51,7 @@
 
     <main>
         <div class="jumbotron">
-            <div class="text-white text-left pt-5 px-3 " >
+            <div class="text-white text-left pt-5 px-3" >
                 <img class="d-flex" src="./imagens/logoft.png">
                 <h1 class="h4-responsive mb-4">Curso de programação para surdos</h1>
                 <p class="d-flex mx-2 mb-2 text-center">A Sinal Code desenvolveu uma plataforma digital de cursos na área de programação<br>elaborados para atender exclusivamente a comunidade surda. Todas as aulas são<br>adaptadas com a linguagem de sinais (libras) e legenda, para um melhor<br>desenvolvimento no ensino-aprendizagem.</p>
@@ -65,7 +65,7 @@
                 <br><br>
                 <section class="container">
                     <div class="box1">
-                        <p class="text-center"><b class="text-warning">MERCADO</b><br><br> Alta demanda por profissionais no mercado de trabalho</p>
+                        <p class="text-center"><b class="text-warning">MERCADO</b><br><br>Alta demanda por profissionais no mercado de trabalho</p>
                     </div>
                     <div class="box2">
                         <p class="text-center"><b class="text-warning">SALÁRIOS</b><br><br><b class="text-warning">R$ 5.000,00</b><br><br> média salarial</p>
