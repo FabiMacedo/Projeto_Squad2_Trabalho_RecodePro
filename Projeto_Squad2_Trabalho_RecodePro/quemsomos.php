@@ -76,7 +76,7 @@
 
                     Compreendendo o processo diferenciado
                     de aprendizagem dos surdos, a equipe
-                    (nome), desenvolveu um conteúdo
+                    Sinal Code, desenvolveu um conteúdo
                     pedagógico para atender especifidades
                     da surdez.<br>
 
@@ -88,7 +88,7 @@
             <div id=box>
                 <h4 class="h3-responsive mb-4">História</h4>
                 <p class="d-flex mx-2 mb-2 text-center">
-                    A equipe da (nome do projeto), é composta por jovens desenvolvedoresFull Stack. Os membros
+                    A equipe da Sinal Code, é composta por jovens desenvolvedores Full Stack. Os membros
                     Alan Diego, Ariane Gariso, Esdras Teixeira,
                     Fabiana Macedo e Nataly Flores Pereira, alunos do
                     curso de programação da Recode Pro, tiveram
@@ -96,7 +96,7 @@
                     social que promovesse a inserção de pessoas em
                     situação de vulnerabilidade, no mercado de trabalho.
                     A partir dessa inspiração, nasceu
-                    o projeto apaixonante (nome).
+                    o projeto apaixonante Sinal Code.
             </div>
 
             <div id=box>
