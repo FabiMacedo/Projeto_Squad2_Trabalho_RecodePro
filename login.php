@@ -15,13 +15,17 @@
 
 <body style="background: rgb(0, 194, 203)">
     <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#"><!-- Navbar --></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.php"><img src="./imagens/logosinal.jpg" width="70px"></a>
+                    <a class="nav-link" href="index.php"><img src="./imagens/logosinal.jpg" width="70px"><span class="sr-only">(página atual)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.php">Home</a>
+                    <a class="nav-link" href="index.php">Home <span class="sr-only">(página atual)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="quemsomos.php">Quem somos</a>
@@ -35,7 +39,6 @@
                         <div class="dropdown-divider"></div>
                     </div>
                 </li>
-
                 <li class="nav-item">
                     <a class="nav-link" href="login.php">Login</a>
                 </li>
@@ -49,17 +52,15 @@
         </div>
     </nav>
 
-    <div class="jumbotron" style="height: 1000px;">
-        <div class="card mt-5" style="background-color: rgb(255, 111, 22);">
-            <h1>Cadastre-se</h1>
-            <form action="cadastro_usuario.php" method="post">
-                <input type="text" name="nome" placeholder="Digite o seu nome">
-                <input type="email" name="email" placeholder="Digite seu e-mail">
-                <input type="password" name="senha" placeholder="Digite sua senha">
-                <input type="password" name="conf_senha" placeholder="Confirme sua senha">
-                <button>Cadastre-se</button>
+    <div class="jumbotron" style="height: 900px;">
+        <div class="card" style="background-color:  rgb(255, 111, 22);">
+            <h1>Entre ou Cadastre-se</h1>
+            <form action="login_usuario.php" method="post">
+                <input type="email" name="email" placeholder="Email">
+                <input type="password" name="senha" placeholder="Senha">
+                <button>Enviar</button>
+                <a href="./cadastro.php">Ainda não possui cadastro? Clique aqui!</a>
             </form>
-            <a href="./login.php">Já possui cadastro? Faça o login</a>
         </div>
     </div>
 </body>
