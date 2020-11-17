@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Login</title>
+    <title>Sinal Code - Cadastro</title>
     <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css/cadastro.css">
 
@@ -13,50 +13,16 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 
-<body style="background: rgb(0, 194, 203)">
-    <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#"><!-- Navbar --></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.php"><img src="./imagens/logosinal.jpg" width="70px"><span class="sr-only">(página atual)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.php">Home <span class="sr-only">(página atual)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="quemsomos.php">Quem somos</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cursos</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="cursos.php">HTML5</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="cursos.php">CSS</a>
-                        <div class="dropdown-divider"></div>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="login.php">Login</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="cadastro.php">Cadastre-se</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="faleconosco.php">Fale conosco</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <?php
+        include_once('menu.html');
+    ?>
 
     <div class="jumbotron" style="height: 1000px;">
         <div class="card mt-5" style="background-color: rgb(255, 111, 22);">
             <h1>Cadastre-se</h1>
             <form action="cadastro_usuario.php" method="post">
                 <input type="text" name="nome" placeholder="Digite o seu nome">
+                <input type="text" name="sobrenome" placeholder="Digite o seu sobrenome">
                 <input type="email" name="email" placeholder="Digite seu e-mail">
                 <input type="password" name="senha" placeholder="Digite sua senha">
                 <input type="password" name="conf_senha" placeholder="Confirme sua senha">
@@ -65,5 +31,8 @@
             <a href="./login.php">Já possui cadastro? Faça o login</a>
         </div>
     </div>
+    <footer>
+        <div class="rodape">Squad 02 RecodePro 2020 - Copyright</div>
+    </footer>
 </body>
 </html>

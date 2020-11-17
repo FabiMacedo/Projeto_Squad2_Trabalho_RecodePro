@@ -1,4 +1,7 @@
 <?php
+
+    include_once './banco de dados/conexao.php';
+
 //Libera uma variavel global session.
     session_start();
 
@@ -6,7 +9,7 @@
     $senha = md5($_POST['senha']);
 
     if (strlen($email) > 3 && strlen($senha) > 3) {
-        $conn = mysqli_connect("localhost", "root", "", "sinalcode");
+
         $resultado_consulta = $conn->query("SELECT * from usuarios where email = '$email' AND senha = '$senha'");
         $usuarios = mysqli_fetch_all($resultado_consulta);
 

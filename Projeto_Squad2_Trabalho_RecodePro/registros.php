@@ -1,16 +1,16 @@
 <?php
 
+    include_once './banco de dados/conexao.php';
+
     $nome = $_POST['nome'];
     $email = $_POST['email'];
     $telefone = $_POST['telefone'];
     $mensagem = $_POST['mensagem'];
 
-    $conn = mysqli_connect("localhost", "root", "", "sinalcode");
     $sql = "INSERT INTO registros (nome, email, telefone, mensagem) values ('$nome', '$email', '$telefone', '$mensagem')";
     mysqli_query($conn, $sql);
 
     if (strlen($nome) > 3 && strlen($mensagem) > 3) {
-        $conn = mysqli_connect("localhost", "root", "", "sinalcode");
         $resultado_consulta = $conn->query("SELECT * from registros where nome = '$nome' AND email = '$email' AND telefone = '$telefone' AND mensagem = '$mensagem'");
         $resgistros = mysqli_fetch_all($resultado_consulta);
     

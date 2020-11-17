@@ -26,6 +26,11 @@ h1, h2, h3, h4, h5, h6{
 }
 
 h1{
-    font-size: 32px;
+    font-size: 38px;
+}
+
+.rodape {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
 }
 

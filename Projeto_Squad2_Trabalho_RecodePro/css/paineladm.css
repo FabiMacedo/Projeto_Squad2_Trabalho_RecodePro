@@ -1,0 +1,51 @@
+.adm1 {
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9fb;
+    
+}
+
+.adm1 section {
+    padding: 0px 6px 0px 6px;
+    width: 100vw;
+}
+
+
+table caption {
+    caption-side: top;
+}
+
+.section-adm1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.section-adm1 caption, th, td, p {
+    font-size: 20px;
+    color: var(--color-text-complement);
+}
+
+.div-table-adm1 {
+    overflow-y:auto;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

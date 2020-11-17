@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title></title>
+    <title>Sinal Code - Quem Somos</title>
     <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css/quemsomos.css">
 
@@ -15,66 +15,31 @@
 
 </head>
 
-<body style="background: rgb(0, 194, 203);">
-    <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#"><!-- Navbar --></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.php"><img src="./imagens/logosinal.jpg" width="70px"><span class="sr-only">(página atual)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.php">Home <span class="sr-only">(página atual)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="quemsomos.php">Quem somos</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cursos</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="cursos.php">HTML5</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="cursos.php">CSS</a>
-                        <div class="dropdown-divider"></div>
-                    </div>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="login.php">Login</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="cadastro.php">Cadastre-se</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="faleconosco.php">Fale conosco</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <main>
-        <div class="jumbotron">
-            <div id=box>
-                <br><br>
-                <h1 class="h1-responsive mb-4">QUEM SOMOS</h1>
-                <br><br><br><br>
+<body>
+    <?php
+        include_once('menu.html');
+    ?>
+    <div class="jumbotron">
+        <h1 class="h1-responsive mb-4">QUEM SOMOS</h1>
+        <div class="container-fluid">
+            <div class="container">
                 <h4 class="h3-responsive mb-4">Proposta</h4>
-                <p class="d-flex mx-2 mb-2 text-center">São muitos os desafios enfrentados pelos surdos quando falamos de
-                emprego em nosso país não é mesmo? Este é o desafio que move a equipe Sinal Code.<br>A nossa motivação é proporcionar ao surdo uma capacitação profissional que lhe garanta reconhecimento profissionale uma vida digna.<br>Compreendendo o processo diferenciado de aprendizagem dos surdos, a equipe Sinal Code desenvolveu um conteúdo pedagógico para atender especifidades a surdez.<br>Todas as vídeo aulas contam com um tradutor intérprete em Libras, e legenda de seu conteúdo.</p>
-            </div>
+                <p class="d-flex mx-2 mb-2 text-center">São muitos os desafios enfrentados pelos surdos quando falamos de emprego em nosso país não é mesmo? Este é o desafio que move a equipe Sinal Code.<br>A nossa motivação é proporcionar ao surdo uma capacitação profissional que lhe garanta reconhecimento profissionale uma vida digna.<br>Compreendendo o processo diferenciado de aprendizagem dos surdos, a equipe Sinal Code desenvolveu um conteúdo pedagógico para atender especifidades a surdez.<br>Todas as vídeo aulas contam com um tradutor intérprete em Libras, e legenda de seu conteúdo.</p>
+            </div>            
 
-            <div id=box>
+            <div class="container">
                 <h4 class="h3-responsive mb-4">História</h4>
                 <p class="d-flex mx-2 mb-2 text-center"> A equipe da Sinal Code é composta por jovens desenvolvedores Full Stack. Os membros Alan Diego, Ariane Gariso, Esdras Teixeira, Fabiana Macedo e Nataly Flores Pereira, alunos do curso de programação Full Stack da Recode Pro, tiveram como desafio proposto pela Recode Pro, em produzir um projeto social que promovesse a inserção de pessoas em situação de vulnerabilidade social no mercado de trabalho. A partir dessa inspiração, nasceu o projeto apaixonante Sinal Code.</p>
             </div>
 
-            <div id=box>
+            <div class="container">
                 <h4 class="h3-responsive mb-4">Missão</h4>
                 <p class="d-flex mx-2 mb-2 text-center"> A nossa missão é formar alunos surdos com habilidades técnicas e socioemocionais, a fim de capacita-los para atuar no mercado de trabalho com excelência.
             </div>
         </div>
-    </main>
+        <footer>
+            <div class="rodape">Squad 02 RecodePro 2020 - Copyright</div>
+        </footer>
+    </div>
 </body>
 </html>

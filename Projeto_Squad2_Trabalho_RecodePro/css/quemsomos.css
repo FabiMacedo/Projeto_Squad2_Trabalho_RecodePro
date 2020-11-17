@@ -1,36 +1,67 @@
 .jumbotron {
-    background-image: url('../imagens/banner_quem_somos2.png');
-    margin-top: -5px;
-    background-size:cover;
-    height: 720px;
-    
-    }
+    display: flex;
+    flex-direction: column;
+    height: 1750px;
+    background-image: url('../imagens/banner_quem_somos.png');
+    background-repeat: no-repeat;
+    background-position: center -188px;
+    background-attachment: scroll;
+    background-size: cover;
+    text-align: center;
+}
 
-    .jumbotron h4 {
-        text-align: center;
-        color: orange;
-        font-weight: bold;
-        text-shadow: black 0.1em 0.1em 0.2em;
+.jumbotron h4 {
+    text-align: center;
+    color: orange;
+    font-weight: bold;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 32px;
+}
+
+.jumbotron p {
+    color: white;
+    font-size: 22px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    margin-top: 100px;
+}
+
+.container-fluid {
+    margin-top: 100px;
+    display: flex;
+}
+
+#box {
+    border: 0px solid white;
+    width: 30%;    
+}
+
+.rodape {
+    margin-top: 750px;
+}
+
+@media (max-width: 768px) {
+    .jumbotron h1 {
+        font-size: 30px;
     }
 
     .jumbotron p {
-        color: white;
         font-size: 16px;
-        text-shadow: black 0.1em 0.1em 0.2em;
     }
 
-    .jumbotron h1 {
-        margin-top: -20px;
-        margin-left: 50px;
-        color: white;
-        font-weight: bold;
-        text-shadow: black 0.1em 0.1em 0.2em;
-        }
-
-    #box {
-        border: 0px solid white;
-        width: 30%;    
-        display: inline-block;
+    .container-fluid{
+        display: flex;
+        flex-direction: column;
     }
+
+    .rodape {
+        margin-top: 400px;
+    }
+}
 
     

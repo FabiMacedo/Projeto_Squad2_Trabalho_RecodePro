@@ -1,15 +1,17 @@
 <?php
 
+    include_once './banco de dados/conexao.php';
+
     $nome = $_POST['nome'];
+    $sobrenome = $_POST['sobrenome'];
     $email = $_POST['email'];
     $senha = $_POST['senha'];
     $conf_senha = $_POST['conf_senha'];
 
 
-    if (strlen($nome) > 3 && strlen($email) > 3 && strlen($senha) > 3 && $senha === $conf_senha) {
+    if (strlen($nome) > 2 && strlen($sobrenome) > 2 && strlen($email) > 3 && strlen($senha) > 3 && $senha === $conf_senha) {
         $senha_cripto = md5($senha);
-        $conn = mysqli_connect("localhost", "root", "", "sinalcode");
-        $sql = "INSERT INTO usuarios (nome, email, senha) values('$nome', '$email', '$senha_cripto')";
+        $sql = "INSERT INTO usuarios (nome, sobrenome, email, senha) values('$nome', '$sobrenome', '$email', '$senha_cripto')";
         $conn->query($sql);
         echo "<script>
                 alert('Seu cadastro foi efetuado com sucesso!')
@@ -17,13 +19,22 @@
                 </script>
                 ";
     }
-    else if(strlen($nome) <= 3) {
+    else if(strlen($nome) <= 2) {
         echo "<script>
-                alert('Digite seu nome completo!')
+                alert('Digite um nome válido!')
                 window.location.href = 'cadastro.php'
                 </script>
                 ";
     }
+
+    else if(strlen($sobrenome) <= 2) {
+        echo "<script>
+                alert('Digite um sobrenome válido!')
+                window.location.href = 'cadastro.php'
+                </script>
+                ";
+    }
+
     else if ($senha != $conf_senha) {
         echo "<script>
                 alert('As senhas devem ser iguais, tente novamente!')
