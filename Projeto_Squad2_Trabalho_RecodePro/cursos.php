@@ -18,7 +18,6 @@
     ?>
 
     <div class="jumbotron">
-        <br><br>
         <p class="text-warning">Aguarde, novidades em breve !!!</p>
         <p class="text-warning">Aguarde, novidades em breve !!!</p>
         <p class="text-warning">Aguarde, novidades em breve !!!</p>

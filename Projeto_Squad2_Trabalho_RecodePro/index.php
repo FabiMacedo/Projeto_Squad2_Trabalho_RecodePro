@@ -25,12 +25,12 @@
             <p class="">A Sinal Code desenvolveu uma plataforma digital de cursos na área de programação<br>elaborados para atender exclusivamente a comunidade surda. Todas as aulas são<br>adaptadas com a linguagem de sinais (libras) e legenda, para um melhor<br>desenvolvimento no ensino-aprendizagem.</p>
             <p class="">O curso ofertado é 100% gratuito. Contamos com o patrocínio de empresas parceiras <br>nesta empreitada de cunho social.</p>
         </div>
-
-        <br><br>
             
-        <h1 class="h1-responsive mb-4 text-warning">Porque estudar programação?</h1>
+        
 
         <div class="container">
+            <h1 class="h1-responsive mb-4 text-warning">Porque estudar programação?</h1>
+            <div class="container-inter">
             <div class="mercado">
                 <img src="./imagens/mercado.png">
                 <p class="text-center mb-1"><b class="text-warning">MERCADO</b></p>
@@ -45,6 +45,7 @@
                 <img src="./imagens/adaptacao.png">
                 <p class="text-center mb-1"><b class="text-warning">ADAPTAÇÃO</b></p>
                 <p class="mt-1">Fácil adaptação do surdo nos processos de trabalho</p>
+            </div>
             </div>
         </div>    
     <footer>

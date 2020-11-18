@@ -15,7 +15,7 @@
     <?php
         include_once('menu.html');
     ?>
-    <div class="jumbotron">
+    <main class="jumbotron">
         
         <div class="fundologin">
 
@@ -28,10 +28,12 @@
                     <button>Enviar</button>
                     <a href="./cadastro.php">Ainda não possui cadastro? Clique aqui!</a>
                 </form>
+
             </div>
 
         </div>
-    </div>
+
+</main>
 
     <footer>
         <div class="rodape">Squad 02 RecodePro 2020 - Copyright</div>
