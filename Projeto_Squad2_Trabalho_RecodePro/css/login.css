@@ -1,7 +1,9 @@
 .jumbotron{
     display: flex;
     flex-direction: column;
-    height: 1100px;
+    align-items: center;
+    justify-content: center;
+    height: 1200px;
     background-image: url('../imagens/banner_login2.jpeg');
     background-repeat: no-repeat;
     background-position: center -188px;
@@ -14,36 +16,37 @@
 
 }
 
-.card {
-    display: flex;
-    width: 20%;
-    height: 330px;
-    margin-top: 200px;
-    margin-left: 900px;
+.qualquer {
+   
+    width: 400px;
+    height: 400px;
     border-radius: 6px;
+    padding: 16px;
+    margin: 40px;
+    background-color: rgb(255, 111, 22);
 }
 
-.card h1{
+.fundologin {
+    display: flex;
+    justify-content: center;
+}
+
+.qualquer h2{
     margin-top: 20px;
     
 }
 
-.card input{
+.qualquer input {
     display: block;
-    justify-items: center;
-    align-items: center;
     width: 80%;
     height: 40px;
-    margin-left: 40px;
-    margin-top: 16px;
     border: 0;
-    padding-left: 8px;
-    border: 1px solid #cccccc;
     border-radius: 15px;
-    
+    margin: 16px auto 0px;
+    padding-left: 8px;
 }
 
-.card button{
+.qualquer button{
     display: block;
     width: 80%;
     height: 40px;
@@ -56,33 +59,39 @@
     text-shadow: black 0.1em 0.1em 0.2em;;
 }
 
-.card a{
+.qualquer a{
     display: block;
-    margin-top: 12px;
     font-size: 18px;
+    width: 80%;
+    height: 100px;
+    margin: 16px auto 0px;
+    padding-left: 8px;
     
 }
 
 .rodape {
-    margin-left: 1000px;
-    margin-top: -10px;
+    text-align: center;
+    padding: 15px;
+    margin-right: 15px;
 }
 
+
+/*
 @media (max-width: 768px) {
 
-    .card {
+    .qualquer {
         display: flex;
         width: 70%;
         height: 310px;
         margin-left: 90px;
     }
 
-    .card h1{
+    .qualquer h1{
         font-size: 34px;
         
     }
 
-    .card a{
+    .qualquer a{
         font-size: 14px;
         
     }
@@ -92,6 +101,6 @@
         margin-top: -100px;
     }
     
-}
+}*/
 
 

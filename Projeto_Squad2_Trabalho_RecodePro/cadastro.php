@@ -18,17 +18,21 @@
     ?>
 
     <div class="jumbotron" style="height: 1000px;">
-        <div class="card mt-5" style="background-color: rgb(255, 111, 22);">
-            <h1>Cadastre-se</h1>
-            <form action="cadastro_usuario.php" method="post">
-                <input type="text" name="nome" placeholder="Digite o seu nome">
-                <input type="text" name="sobrenome" placeholder="Digite o seu sobrenome">
-                <input type="email" name="email" placeholder="Digite seu e-mail">
-                <input type="password" name="senha" placeholder="Digite sua senha">
-                <input type="password" name="conf_senha" placeholder="Confirme sua senha">
-                <button>Cadastre-se</button>
-            </form>
-            <a href="./login.php">Já possui cadastro? Faça o login</a>
+        <div class="fundocadastro">
+            <div class="card mt-5" style="background-color: rgb(255, 111, 22);">
+                
+                <form action="cadastro_usuario.php" method="post">
+                    <h1>Cadastre-se</h1>
+                    <input type="text" name="nome" placeholder="Digite o seu nome">
+                    <input type="text" name="sobrenome" placeholder="Digite o seu sobrenome">
+                    <input type="email" name="email" placeholder="Digite seu e-mail">
+                    <input type="password" name="senha" placeholder="Digite sua senha">
+                    <input type="password" name="conf_senha" placeholder="Confirme sua senha">
+                    <button>Cadastre-se</button>
+                    <a href="./login.php">Já possui cadastro? Faça o login</a>
+                </form>
+                
+            </div>
         </div>
     </div>
     <footer>

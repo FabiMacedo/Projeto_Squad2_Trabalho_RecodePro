@@ -17,17 +17,22 @@
     ?>
     <div class="jumbotron">
         
-        <div class="card" style="background-color: rgb(255, 111, 22);">
-            <h1>Entre ou Cadastre-se</h1>
-            <form action="login_usuario.php" method="post">
-                <input type="email" name="email" placeholder="Email">
-                <input type="password" name="senha" placeholder="Senha">
-                <button>Enviar</button>
-                <a href="./cadastro.php">Ainda não possui cadastro? Clique aqui!</a>
-            </form>
+        <div class="fundologin">
+
+            <div class="qualquer">
+                
+                <form action="login_usuario.php" method="post">
+                    <h2>Entre ou Cadastre-se</h2>
+                    <input type="email" name="email" placeholder="Email">
+                    <input type="password" name="senha" placeholder="Senha">
+                    <button>Enviar</button>
+                    <a href="./cadastro.php">Ainda não possui cadastro? Clique aqui!</a>
+                </form>
+            </div>
+
         </div>
-        
     </div>
+
     <footer>
         <div class="rodape">Squad 02 RecodePro 2020 - Copyright</div>
     </footer>

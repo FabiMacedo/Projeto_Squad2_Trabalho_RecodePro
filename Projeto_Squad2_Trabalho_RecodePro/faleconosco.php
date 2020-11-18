@@ -32,7 +32,7 @@
                 </form>
             </div>
         </div>
-        <footer class="gambiarra">
+        <footer class="rodapee">
                 <h5>Sinal Code</h5>
                 <h6>email: recode2020spt2squad2@gmail.com</h6>
         </footer>
