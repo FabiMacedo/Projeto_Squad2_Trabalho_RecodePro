@@ -1,8 +1,0 @@
-.adm {
-    margin-left: 1645px;
-}
-
-@media (max-width: 768px) {
-    .adm {
-        margin-left: 0;
-    }
