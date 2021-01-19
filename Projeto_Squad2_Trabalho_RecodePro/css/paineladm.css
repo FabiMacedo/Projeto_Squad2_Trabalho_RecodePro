@@ -3,7 +3,7 @@
     width: 100vw;
     display: flex;
     flex-direction: column;
-    background-color: #f9f9f9fb;
+    background-image: linear-gradient(to right, #61b8e0, #0b7cb1 );
     
 }
 

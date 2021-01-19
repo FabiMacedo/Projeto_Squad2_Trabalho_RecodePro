@@ -21,6 +21,8 @@ SET time_zone = "+00:00";
 -- Banco de dados: `sinalcode`
 --
 
+CREATE database sinalcode;
+
 -- --------------------------------------------------------
 
 --
