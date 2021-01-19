@@ -124,5 +124,8 @@
             </div>
         </section>
     </main>
+    <?php
+        include_once('footer.html');
+    ?>  
 </body>
 </html>

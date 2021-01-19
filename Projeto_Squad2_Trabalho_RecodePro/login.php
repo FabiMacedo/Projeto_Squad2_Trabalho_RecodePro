@@ -27,6 +27,10 @@
                 <a href="./cadastro.php">Ainda não possui cadastro?<br /> Clique aqui!</a>
             </form>
         </div>
-    </div>    
+    </div>  
+    
+    <?php
+        include_once('footer.html');
+    ?>  
 </body>
 </html>

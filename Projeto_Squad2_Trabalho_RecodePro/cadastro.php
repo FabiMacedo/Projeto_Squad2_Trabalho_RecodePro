@@ -17,22 +17,24 @@
     <?php
         include_once('menu.html');
     ?>
-        <div class="fundocadastro">
-            <div class="quadrado">
-                
-                <form action="cadastro_usuario.php" method="post">
-                    <h1>Cadastre-se</h1>
-                    <input type="text" name="nome" placeholder="Digite o seu nome">
-                    <input type="text" name="sobrenome" placeholder="Digite o seu sobrenome">
-                    <input type="email" name="email" placeholder="Digite seu e-mail">
-                    <input type="password" name="senha" placeholder="Digite sua senha">
-                    <input type="password" name="conf_senha" placeholder="Confirme sua senha">
-                    <button>Cadastre-se</button>
-                    <a href="./login.php">Já possui cadastro? Faça o login</a>
-                </form>
-                
-            </div>
+
+    <div class="fundocadastro">
+        <div class="quadrado">
+            <form action="cadastro_usuario.php" method="post">
+                <h1>Cadastre-se</h1>
+                <input type="text" name="nome" placeholder="Digite o seu nome">
+                <input type="text" name="sobrenome" placeholder="Digite o seu sobrenome">
+                <input type="email" name="email" placeholder="Digite seu e-mail">
+                <input type="password" name="senha" placeholder="Digite sua senha">
+                <input type="password" name="conf_senha" placeholder="Confirme sua senha">
+                <button>Cadastre-se</button>
+                <a href="./login.php">Já possui cadastro? Faça o login</a>
+            </form>
         </div>
-</body>
+    </div>
+
+    <?php
+        include_once('footer.html');
+    ?>  
 </body>
 </html>

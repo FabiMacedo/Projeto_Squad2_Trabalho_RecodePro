@@ -36,5 +36,9 @@
         <p>Nós esperamos que sua experiência seja muito agradavel!</p>
         <a href="<?php session_destroy()?>">Sair</a>
     </div>
+
+    <?php
+        include_once('footer.html');
+    ?>  
 </body>
 </html>
