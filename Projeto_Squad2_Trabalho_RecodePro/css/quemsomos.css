@@ -13,7 +13,7 @@
 
 .container h4 {
     text-align: center;
-    color: orange;
+    color:  #fc6c18;
     font-weight: bold;
     text-shadow: black 0.1em 0.1em 0.2em;
     font-size: 32px;
@@ -26,7 +26,9 @@
 }
 
 .container h1 {
-    color: white;
+    margin-top: 80px;
+    text-align: center;
+    color: #fc6c18;
     font-weight: bold;
     text-shadow: black 0.1em 0.1em 0.2em;
 }

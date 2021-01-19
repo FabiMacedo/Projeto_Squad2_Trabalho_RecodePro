@@ -20,7 +20,7 @@
         include_once('menu.html');
     ?>
     
-        <h1 class="h1-responsive mb-4">QUEM SOMOS</h1>
+        <h1 class="h1-responsive mb-4">Quem Somos</h1>
         <div class="container-1">
             <div class="container-2">
                 <h4 class="h3-responsive mb-4">Proposta</h4>
