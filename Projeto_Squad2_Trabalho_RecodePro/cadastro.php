@@ -13,13 +13,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 
+<body class="container">
     <?php
         include_once('menu.html');
     ?>
-
-    <div class="jumbotron" style="height: 1000px;">
         <div class="fundocadastro">
-            <div class="card mt-5" style="background-color: rgb(255, 111, 22);">
+            <div class="quadrado">
                 
                 <form action="cadastro_usuario.php" method="post">
                     <h1>Cadastre-se</h1>
@@ -34,9 +33,6 @@
                 
             </div>
         </div>
-    </div>
-    <footer>
-        <div class="rodape">Squad 02 RecodePro 2020 - Copyright</div>
-    </footer>
+</body>
 </body>
 </html>

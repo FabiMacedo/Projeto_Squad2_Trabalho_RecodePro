@@ -12,32 +12,21 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
+
+<body class="container">
     <?php
         include_once('menu.html');
-    ?>
-    <main class="jumbotron">
-        
-        <div class="fundologin">
-
-            <div class="qualquer">
-                
-                <form action="login_usuario.php" method="post">
-                    <h2>Entre ou Cadastre-se</h2>
-                    <input type="email" name="email" placeholder="Email">
-                    <input type="password" name="senha" placeholder="Senha">
-                    <button>Enviar</button>
-                    <a href="./cadastro.php">Ainda não possui cadastro? Clique aqui!</a>
-                </form>
-
-            </div>
-
+    ?>        
+    <div class="fundologin">
+        <div class="qualquer">                
+            <form action="login_usuario.php" method="post">
+                <h1>Entre ou Cadastre-se</h1>
+                <input type="email" name="email" placeholder="Email">
+                <input type="password" name="senha" placeholder="Senha">
+                <button>Enviar</button>
+                <a href="./cadastro.php">Ainda não possui cadastro?<br /> Clique aqui!</a>
+            </form>
         </div>
-
-</main>
-
-    <footer>
-        <div class="rodape">Squad 02 RecodePro 2020 - Copyright</div>
-    </footer>
-    
+    </div>    
 </body>
 </html>

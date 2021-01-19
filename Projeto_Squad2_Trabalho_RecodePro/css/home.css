@@ -1,11 +1,7 @@
-body{
-    background-color: rgb(0, 194, 203);
-}
-
 .jumbotron{
     display: flex;
     flex-direction: column;
-    height: 1550px;
+    height: 125vh;
     background-image: url('../imagens/banner_home4.png');
     background-repeat: no-repeat;
     background-position: center -188px;
@@ -15,43 +11,63 @@ body{
     background-size: cover;
     -o-background-size: cover;
     text-align: center;
+}
 
+.Painel-inicial {
+    height: 54vh;
+    display: flex;
 }
 
 .inicial {
-    justify-content: center;
+    width: 50%;
+    height: 54vh;
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
 .jumbotron img{
-    width: 350px;
-    height: 180px;
+    margin-top: -40px;
+    width: 320px;
+    height: 150px;
 
 }
 
-.jumbotron h1{
+.jumbotron .Painel-inicial h1{
     color: white;
     font-weight: bold;
     text-shadow: black 0.1em 0.1em 0.2em;
 }
-.jumbotron p{
-    font-size: 24px;
+.jumbotron .Painel-inicial p{
+    font-size: 18px;
     text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 .container {
-    margin-top: 100px;
     display: flex;
+    width: 160vh;
     flex-direction: column;
+}
+
+.jumbotron .container h1 {
+    font-weight: bold;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.jumbotron .container .container-inter p {
+    font-size: 18px;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 .container-inter {
     display: flex;
+    justify-content: space-between;
+    width: 100%;
     margin-top: 30px;
 }
 
-.mercado p {
-    margin-top: -120px;
+.jumbotron .container .container-inter .mercado p {
+    margin-top: -100px;
 }
 
 .mercado img{
@@ -60,17 +76,12 @@ body{
     width: 400px; 
 }
 
-.salario p {
-    margin-top: -40px;
-}
-
 .salario img {
-    margin-top: -30px;
     height: 250px;
 }
 
-.adapta p {
-    margin-top: -70px;
+.jumbotron .container .container-inter .adapta p {
+    margin-top: -55px;
 }
 
 .adapta img {
@@ -78,29 +89,28 @@ body{
     height: 300px;
 }
 
-.rodape {
-    margin-top: 370px;
-}
-
-
 @media (max-width: 768px) {
-    .inicial {
-           
+    .jumbotron {
+           height: 1300px;
     }
 
-    .jumbotron h1 {
-        font-size: 28px;
+    .jumbotron .Painel-inicial .inicial {
+        width: 100%;
     }
 
-    .jumbotron p {
-        font-size: 14px;
-    }
-
-    .jumbotron img{
+    .jumbotron .Painel-inicial .inicial img {
         margin-top: 30px;
-        width: 300px;
-        height: 130px;
-    
+        width: 190px;
+        height: 110px;
+    }
+
+    .jumbotron .Painel-inicial .inicial h1{
+        font-size: 22px;
+    }
+
+    .jumbotron .Painel-inicial .inicial p{
+        margin-top: -10px;
+        font-size: 12px;
     }
 
     .container {
@@ -109,40 +119,46 @@ body{
         flex-direction: column;
     }
 
+    .container h1 {
+        font-size: 22px;
+    }
+
     .container-inter {
         display: flex;
         flex-direction: column;
     }
 
-    .mercado p {
-        margin-top: -100px;
-    }
-    
     .mercado img{
-        margin-top: -90px;
-        height: 350px;
-        width: 350px; 
+        margin-top: -120px;
+        height: 280px;
+        width: 280px; 
     }
 
-    .salario p {
-        margin-top: -50px;
+    .jumbotron .container .container-inter .mercado p {
+        font-size: 14px;
+        padding-top: 30px;
     }
-    
+
     .salario img {
-        margin-top: -30px;
-        height: 200px;
-    }
-
-    .adapta p {
-        margin-top: -70px;
+        margin-top: -40px;
+        height: 180px;
+        width: 250px;
     }
     
+    .jumbotron .container .container-inter .salario p {
+        font-size: 14px;
+        margin-top: -40px;
+    }
+        
     .adapta img {
         margin-top: -50px;
-        height: 250px;
+        height: 220px;
+        width: 220px;
     }
 
-    .rodape {
-        margin-top: 170px;
+    .jumbotron .container .container-inter .adapta p  {
+        font-size: 14px;
+        margin-top: -50px;
     }
+
 }

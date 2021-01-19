@@ -1,7 +1,8 @@
-.jumbotron {
+.container {
     display: flex;
     flex-direction: column;
-    height: 1750px;
+    width: 100vh;
+    height: 100vh;
     background-image: url('../imagens/banner_quem_somos.png');
     background-repeat: no-repeat;
     background-position: center -188px;
@@ -10,7 +11,7 @@
     text-align: center;
 }
 
-.jumbotron h4 {
+.container h4 {
     text-align: center;
     color: orange;
     font-weight: bold;
@@ -18,32 +19,24 @@
     font-size: 32px;
 }
 
-.jumbotron p {
+.container p {
     color: white;
-    font-size: 22px;
+    font-size: 10px;
     text-shadow: black 0.1em 0.1em 0.2em;
 }
 
-.jumbotron h1 {
+.container h1 {
     color: white;
     font-weight: bold;
     text-shadow: black 0.1em 0.1em 0.2em;
-    margin-top: 100px;
 }
 
-.container-fluid {
-    margin-top: 100px;
+.container-1 {
     display: flex;
+    width: 100%;
+    height: 84vh;
 }
 
-#box {
-    border: 0px solid white;
-    width: 30%;    
-}
-
-.rodape {
-    margin-top: 750px;
-}
 
 @media (max-width: 768px) {
     .jumbotron h1 {

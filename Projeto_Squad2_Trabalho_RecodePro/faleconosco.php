@@ -13,13 +13,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     
 </head>
-<body>
-
+<body class="container">
     <?php
         include_once('menu.html');
     ?>
-
-    <main class="jumbotron">
         <div class="fundocontato">
             <div class="quadrado">
                 <form action="registros.php" method="post">
@@ -32,10 +29,5 @@
                 </form>
             </div>
         </div>
-        <footer class="rodapee">
-                <h5>Sinal Code</h5>
-                <h6>email: recode2020spt2squad2@gmail.com</h6>
-        </footer>
-    </main>
 </body>
 </html>

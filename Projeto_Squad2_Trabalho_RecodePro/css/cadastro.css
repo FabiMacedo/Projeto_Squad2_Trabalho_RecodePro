@@ -1,41 +1,37 @@
 
-.jumbotron{ 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-image: url('../imagens/banner_login2.jpeg');
-    background-repeat: no-repeat;
-    background-position: center -188px;
-    background-attachment: scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    text-align: center;
+.container{ 
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, #1c83f6, #0f23da );
 }
 
 .fundocadastro {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
 }
 
-.card {
+.quadrado {
+    justify-content: center;
     width: 400px;
     height: 500px;
+    background-color: rgb(255, 111, 22);
     border-radius: 6px;
+    padding: 16px;
+    margin: 40px;
 }
 
 
-.card h1{
+.quadrado h1{
+    font-weight: bold;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 32px;
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 32px;
-
+    margin-top: 20px;
 }
 
-.card input{
+.quadrado input{
     display: block;
     width: 80%;
     height: 40px;
@@ -45,7 +41,7 @@
     padding-left: 8px;
 }
 
-.card button{
+.quadrado button{
     display: block;
     width: 80%;
     height: 40px;
@@ -54,11 +50,14 @@
     text-align: center;
     margin: 16px auto 0px;
     color: #ffffff;
-    background-color: rgb(0, 194, 203);
+    background-color: #4636db;
     text-shadow: black 0.1em 0.1em 0.2em;;
 }
 
-.card a{
+.quadrado a{
+    color: black;
+    font-weight: bold;
+    text-shadow: black 0.1em 0.1em 0.2em;
     display: block;
     width: 80%;
     margin: 8px auto 0px;
@@ -71,29 +70,3 @@
     padding: 15px;
     margin-right: 15px;
 }
-
-/*@media (max-width: 768px) {
-
-    .card {
-        display: flex;
-        width: 80%;
-        height: 520px;
-        
-    }
-
-    .card h1{
-        font-size: 34px;
-        
-    }
-
-    .card a{
-        font-size: 14px;
-        
-    }
-
-    .rodape {
-        margin-left: 140px;
-        margin-top: -100px;
-    }
-    
-}*/

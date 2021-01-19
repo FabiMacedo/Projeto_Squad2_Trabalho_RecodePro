@@ -18,39 +18,34 @@
     <?php
         include_once('menu.html');
     ?>
+
     <div class="jumbotron">
-        <div class="inicial text-white mb-5 pt-5 px-3" >
-            <img class="img-responsive" src="./imagens/logoft2.png">
-            <h1 class="h4-responsive mb-4">Curso de programação para surdos</h1>
-            <p class="">A Sinal Code desenvolveu uma plataforma digital de cursos na área de programação<br>elaborados para atender exclusivamente a comunidade surda. Todas as aulas são<br>adaptadas com a linguagem de sinais (libras) e legenda, para um melhor<br>desenvolvimento no ensino-aprendizagem.</p>
-            <p class="">O curso ofertado é 100% gratuito. Contamos com o patrocínio de empresas parceiras <br>nesta empreitada de cunho social.</p>
+        <div class="Painel-inicial">
+            <div class="inicial text-white mb-5 pt-5 px-3" >
+                <img class="img-responsive" src="./imagens/logoft2.png">
+                <h1 class="h4-responsive mb-4">Curso de programação para surdos</h1>
+                <p class="">A Sinal Code desenvolveu uma plataforma digital de cursos na área de programação<br>elaborados para atender exclusivamente a comunidade surda. Todas as aulas são<br>adaptadas com a linguagem de sinais (libras) e legenda, para um melhor<br>desenvolvimento no ensino-aprendizagem.</p>
+                <p class="">O curso ofertado é 100% gratuito. Contamos com o patrocínio de empresas <br>parceiras nesta empreitada de cunho social.</p>
+            </div>
         </div>
             
-        
-
         <div class="container">
             <h1 class="h1-responsive mb-4 text-warning">Porque estudar programação?</h1>
             <div class="container-inter">
-            <div class="mercado">
-                <img src="./imagens/mercado.png">
-                <p class="text-center mb-1"><b class="text-warning">MERCADO</b></p>
-                <p class="mt-1">Alta demanda por profissionais no mercado de trabalho</p>
+                <div class="mercado">
+                    <img src="./imagens/mercado.png">
+                    <p>Alta demanda por profissionais<br />no mercado de trabalho</p>
+                </div>
+                <div class="salario">
+                    <img src="./imagens/salario.png">
+                    <p>Média salarial de R$ 5.000,00</p>
+                </div>
+                <div class="adapta">
+                    <img src="./imagens/adaptacao.png">
+                    <p>Fácil adaptação do surdo nos<br />processos de trabalho</p>
+                </div>
             </div>
-            <div class="salario">
-                <img src="./imagens/salario.png">
-                <p class="text-center mb-1"><b class="text-warning">SALÁRIOS</b></p>
-                <p class="mt-1">média salarial de R$ 5.000,00</p>
-            </div>
-            <div class="adapta">
-                <img src="./imagens/adaptacao.png">
-                <p class="text-center mb-1"><b class="text-warning">ADAPTAÇÃO</b></p>
-                <p class="mt-1">Fácil adaptação do surdo nos processos de trabalho</p>
-            </div>
-            </div>
-        </div>    
-    <footer>
-        <div class="rodape">Squad 02 RecodePro 2020 - Copyright</div>
-    </footer>
+        </div> 
     </div>
 </body>
 </html>
