@@ -23,7 +23,7 @@
         <div class="row"> 
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <video class="card-img-top" controls="controls">
+                    <video class="card-img-top" controls="controls" autoplay>
                         <source src="./imagens/curiosidades.mp4" type="video/mp4" />
                     </video>
                     <div class="card-body">
