@@ -1,6 +1,6 @@
 <?php
 
-    include_once './backend/conexao.php';
+    include_once '../Backend/conexao.php';
 
     $sel = "SELECT * FROM usuarios";
     $result = $conn->query($sel);
@@ -11,6 +11,9 @@
     $sel3 = "SELECT * FROM registros";
     $result3 = $conn->query($sel3);
 
+    $sel4 = "SELECT usuarios.nome, usuarios.email, cursos.curso FROM usuarios join cursos ON cursos.id_curso = usuarios.id_curso";
+    $result4 = $conn->query($sel4)
+
 ?>
 
 <!DOCTYPE html>
@@ -18,9 +21,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/global.css">
-    <link rel="stylesheet" href="./css/home.css">
-    <link rel="stylesheet" href="./css/paineladm.css">
+    <link rel="stylesheet" href="./Estilos/global.css">
+    <link rel="stylesheet" href="./Estilos/home.css">
+    <link rel="stylesheet" href="./Estilos/paineladm.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
@@ -95,23 +98,21 @@
             </div>
             <div class="div-table-adm table-wrapper-scroll-y my-custom-scrollbar">
                 <table class="table table-bordered table-hover display dataTable dtr-inline">
-                    <caption><strong> LISTA DE ADMINISTRADORES </strong></caption>
+                    <caption><strong> USUÁRIOS E CURSOS </strong></caption>
                     <thead>
                         <tr>
-                            <th scope="col">Id</th>
                             <th scope="col">Nome</th>
-                            <th scope="col">Sobrenome</th>
                             <th scope="col">Email</th>
+                            <th scope="col">Curso</th>
                         </tr>
                     </thead>
                     <tbody>
                         <?php if($result->num_rows > 0): ?> 
-                                    <?php while ($admin = $result2->fetch_assoc()): ?>
+                                    <?php while ($admin = $result4->fetch_assoc()): ?>
                                         <tr> 
-                                            <th scope="row"><?= $admin['id_admin']; ?></th>
-                                            <td><?= $admin['nome']; ?></td>
-                                            <td><?= $admin['sobrenome']; ?></td>
-                                            <td><?= $admin['admin_email']; ?></td>
+                                            <th scope="row"><?= $admin['nome']; ?></th>
+                                            <td><?= $admin['email']; ?></td>
+                                            <td><?= $admin['curso']; ?></td>
                                         </tr>
                                     <?php endwhile; ?>  
                                     <?php else: ?>    
@@ -124,6 +125,5 @@
             </div>
         </section>
     </main>
-    
 </body>
 </html>

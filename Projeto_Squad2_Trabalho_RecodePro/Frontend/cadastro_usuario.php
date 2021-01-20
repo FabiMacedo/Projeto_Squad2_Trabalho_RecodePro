@@ -1,18 +1,18 @@
 <?php
 
-    include_once './backend/conexao.php';
+    include_once '../Backend/conexao.php';
 
     $nome = $_POST['nome'];
     $sobrenome = $_POST['sobrenome'];
     $email = $_POST['email'];
     $senha = $_POST['senha'];
     $conf_senha = $_POST['conf_senha'];
-    $escolha = $_POST['cursoescolhido'];
+    $escolha = $_POST['id_curso'];
 
 
     if (strlen($nome) > 2 && strlen($sobrenome) > 2 && strlen($email) > 3 && strlen($senha) > 3 && $senha === $conf_senha) {
         $senha_cripto = md5($senha);
-        $sql = "INSERT INTO usuarios (nome, sobrenome, email, senha, cursoescolhido) values('$nome', '$sobrenome', '$email', '$senha_cripto', '$escolha')";
+        $sql = "INSERT INTO usuarios (nome, sobrenome, email, senha, id_curso) values('$nome', '$sobrenome', '$email', '$senha_cripto', '$escolha')";
         $conn->query($sql);
         echo "<script>
                 alert('Seu cadastro foi efetuado com sucesso!')

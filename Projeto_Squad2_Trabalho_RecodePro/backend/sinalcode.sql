@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 17-Nov-2020 às 12:49
+-- Tempo de geração: 20-Jan-2021 às 22:00
 -- Versão do servidor: 10.4.14-MariaDB
 -- versão do PHP: 7.4.11
 
@@ -20,8 +20,8 @@ SET time_zone = "+00:00";
 --
 -- Banco de dados: `sinalcode`
 --
-
-CREATE database sinalcode;
+CREATE DATABASE IF NOT EXISTS `sinalcode` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `sinalcode`;
 
 -- --------------------------------------------------------
 
@@ -49,6 +49,25 @@ INSERT INTO `admin` (`id_admin`, `nome`, `sobrenome`, `admin_email`, `admin_pass
 -- --------------------------------------------------------
 
 --
+-- Estrutura da tabela `cursos`
+--
+
+CREATE TABLE `cursos` (
+  `id_curso` int(20) NOT NULL,
+  `curso` varchar(30) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Extraindo dados da tabela `cursos`
+--
+
+INSERT INTO `cursos` (`id_curso`, `curso`) VALUES
+(1, 'Front end'),
+(2, 'Back end');
+
+-- --------------------------------------------------------
+
+--
 -- Estrutura da tabela `registros`
 --
 
@@ -65,12 +84,7 @@ CREATE TABLE `registros` (
 --
 
 INSERT INTO `registros` (`id`, `nome`, `email`, `telefone`, `mensagem`) VALUES
-(1, 'Alan', 'adiegobiz@gmail.com', '(11)98680-7140', 'Teste 2'),
-(2, 'Pedro', 'pedro@gmail.com', '(11)98680-7141', 'teste 3'),
-(3, 'João', 'joao@gmail.com', '(11)98680-7142', 'teste4'),
-(4, 'Andre', 'andre@gmail.com', '(11)98680-7144', 'teste 4'),
-(5, 'Andre2', 'andre@gmail.com', '(11)98680-7145', 'teste 5'),
-(6, 'Alan Biz', 'adiegobiz@gmail.com', '(11)98680-7140', 'ola pessoal!');
+(7, 'Alan', 'adiegobiz@gmail.com', '(11)986807145', 'oLAAA');
 
 -- --------------------------------------------------------
 
@@ -83,16 +97,16 @@ CREATE TABLE `usuarios` (
   `nome` varchar(100) NOT NULL,
   `sobrenome` varchar(150) DEFAULT NULL,
   `email` varchar(100) NOT NULL,
-  `senha` varchar(40) NOT NULL
+  `senha` varchar(40) NOT NULL,
+  `id_curso` int(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Extraindo dados da tabela `usuarios`
 --
 
-INSERT INTO `usuarios` (`id`, `nome`, `sobrenome`, `email`, `senha`) VALUES
-(12, 'Alan', 'Biz', 'adiegobiz@gmail.com', 'e10adc3949ba59abbe56e057f20f883e'),
-(13, 'Paulo', 'Biz', 'paulo@gmail.com', 'e10adc3949ba59abbe56e057f20f883e');
+INSERT INTO `usuarios` (`id`, `nome`, `sobrenome`, `email`, `senha`, `id_curso`) VALUES
+(24, 'Alan', 'Biz', 'adiegobiz@gmail.com', 'e10adc3949ba59abbe56e057f20f883e', 1);
 
 --
 -- Índices para tabelas despejadas
@@ -107,6 +121,12 @@ ALTER TABLE `admin`
   ADD UNIQUE KEY `admin_email` (`admin_email`);
 
 --
+-- Índices para tabela `cursos`
+--
+ALTER TABLE `cursos`
+  ADD PRIMARY KEY (`id_curso`);
+
+--
 -- Índices para tabela `registros`
 --
 ALTER TABLE `registros`
@@ -117,7 +137,8 @@ ALTER TABLE `registros`
 --
 ALTER TABLE `usuarios`
   ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `email` (`email`);
+  ADD UNIQUE KEY `email` (`email`),
+  ADD KEY `fk_cursos_usuarios` (`id_curso`);
 
 --
 -- AUTO_INCREMENT de tabelas despejadas
@@ -130,16 +151,32 @@ ALTER TABLE `admin`
   MODIFY `id_admin` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
+-- AUTO_INCREMENT de tabela `cursos`
+--
+ALTER TABLE `cursos`
+  MODIFY `id_curso` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
 -- AUTO_INCREMENT de tabela `registros`
 --
 ALTER TABLE `registros`
-  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT de tabela `usuarios`
 --
 ALTER TABLE `usuarios`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
+
+--
+-- Restrições para despejos de tabelas
+--
+
+--
+-- Limitadores para a tabela `usuarios`
+--
+ALTER TABLE `usuarios`
+  ADD CONSTRAINT `fk_cursos_usuarios` FOREIGN KEY (`id_curso`) REFERENCES `cursos` (`id_curso`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -1,6 +1,6 @@
 <?php
 
-    include_once './banco de dados/conexao.php';
+    include_once '../Backend/conexao.php';
 
     $nome = $_POST['nome'];
     $email = $_POST['email'];

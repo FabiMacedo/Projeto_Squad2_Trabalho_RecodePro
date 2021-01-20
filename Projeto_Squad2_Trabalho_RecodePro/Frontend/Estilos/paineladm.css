@@ -34,6 +34,17 @@ table caption {
     
 }
 
+@media (max-width: 768px) {
+
+    .adm1 .section-adm1 caption {
+        font-size: 14px;
+    }
+
+    .adm1 .section-adm1 th, td, p {
+        font-size: 10px;
+    }
+
+}
 
 
 
