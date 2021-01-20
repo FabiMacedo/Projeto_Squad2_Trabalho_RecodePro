@@ -23,7 +23,7 @@
 
 .quadrado h1 {
     font-weight: bold;
-    text-shadow: black 0.1em 0.1em 0.2em;
+    /*text-shadow: black 0.1em 0.1em 0.2em;*/
     font-size: 32px;
     text-align: center;
     margin-top: 30px;

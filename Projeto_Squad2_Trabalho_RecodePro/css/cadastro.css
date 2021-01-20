@@ -25,7 +25,7 @@
 
 .quadrado h1{
     font-weight: bold;
-    text-shadow: black 0.1em 0.1em 0.2em;
+    /* text-shadow: black 0.1em 0.1em 0.2em; */
     font-size: 32px;
     text-align: center;
     margin-top: 20px;
@@ -51,13 +51,13 @@
     margin: 16px auto 0px;
     color: #ffffff;
     background-color: #0b7cb1;
-    text-shadow: black 0.1em 0.1em 0.2em;;
+   /*  text-shadow: black 0.1em 0.1em 0.2em;; */
 }
 
 .quadrado a{
     color: black;
     font-weight: bold;
-    text-shadow: black 0.1em 0.1em 0.2em;
+    /* text-shadow: black 0.1em 0.1em 0.2em; */
     display: block;
     width: 80%;
     margin: 8px auto 0px;
@@ -71,7 +71,7 @@
     font-size: 20px;
     color: black;
     font-weight: bold;
-    text-shadow: black 0.1em 0.1em 0.2em;
+    /* text-shadow: black 0.1em 0.1em 0.2em; */
 }
 
 .quadrado .escolha-1 {

@@ -26,10 +26,11 @@
             <div class="col">
                 <div class="card" style="width: 18rem;">
                     <video class="card-img-top" controls="controls" autoplay>
-                        <source src="./imagens/colaboradores.mp4" type="video/mp4"/>
+                        <source src="./videos/colaboradores.mp4" type="video/mp4"/>
                     </video>
                     <div class="card-body">
-                        <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                    <h5 class="card-title">Nossos Anjos!</h5>
+                        <p class="card-text">Aqui é a área do nosso site destinada aos nossos colaboradores. São nossos voluntários e são parte fundamental neste projeto de inclusão do surdo no mercado de trabalho através da programação.</p>
                     </div>
                 </div>
             </div> 
@@ -54,7 +55,7 @@
         </div> 
     </div>
 
-    <div class="curiosidades mt-5 mb-5">
+    <!--<div class="curiosidades mt-5 mb-5">
         <div class="row"> 
             <div class="col">
                 <div class="card" style="width: 18rem;">
@@ -83,10 +84,7 @@
                 </div> 
             </div>
         </div>
-    </div>
+    </div> -->
 
-    <?php
-        include_once('footer.html');
-    ?>  
 </body>
 </html>
