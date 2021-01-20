@@ -24,7 +24,3 @@
     else {
         echo "<script>alert('Nome ou Mensagem inválidos!')location.href = 'login.php'</script>";
     }
-
-    
-    
-    
