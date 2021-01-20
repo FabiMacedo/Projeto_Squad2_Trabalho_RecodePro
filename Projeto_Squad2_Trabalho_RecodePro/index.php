@@ -22,11 +22,11 @@
 
     <div class="jumbotron">
         <div class="Painel-inicial">
-            <div class="inicial text-white mb-5 pt-5 px-3" >
+            <div class="inicial text-white mt-4 mb-5 pt-5 px-3" >
                 <img class="img-responsive" src="./imagens/logoft2.png">
-                <h1 class="h4-responsive mb-4">Curso de programação para surdos</h1>
-                <p class="">A Sinal Code desenvolveu uma plataforma digital de cursos na área de programação<br>elaborados para atender exclusivamente a comunidade surda. Todas as aulas são<br>adaptadas com a linguagem de sinais (libras) e legenda, para um melhor<br>desenvolvimento no ensino-aprendizagem.</p>
-                <p class="">O curso ofertado é 100% gratuito. Contamos com o patrocínio de empresas <br>parceiras nesta empreitada de cunho social.</p>
+                <h1 class="h4-responsive my-4">Curso de programação para surdos</h1>
+                <p class="">A Sinal Code desenvolveu uma plataforma digital de cursos na área de programação elaborados para atender exclusivamente a comunidade surda. Todas as aulas são adaptadas com a linguagem de sinais (libras) e legenda, para um melhor desenvolvimento no ensino-aprendizagem.</p>
+                <p class="">O curso ofertado é 100% gratuito. Contamos com o patrocínio de empresas parceiras nesta empreitada de cunho social.</p>
             </div>
         </div>
             

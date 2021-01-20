@@ -25,7 +25,9 @@
         <div class="row"> 
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src=".../100px180/?text=Image cap" alt="Imagem de capa do card">
+                    <video class="card-img-top" controls="controls" autoplay>
+                        <source src="./imagens/colaboradores.mp4" type="video/mp4"/>
+                    </video>
                     <div class="card-body">
                         <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
                     </div>
