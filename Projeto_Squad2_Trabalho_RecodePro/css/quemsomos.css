@@ -1,7 +1,7 @@
 .container {
     display: flex;
     flex-direction: column;
-    width: 100vh;
+    width: 125vh;
     height: 100vh;
     background-image: url('../imagens/banner_quem_somos.png');
     background-repeat: no-repeat;
@@ -16,12 +16,12 @@
     color:  #fc6c18;
     font-weight: bold;
     text-shadow: black 0.1em 0.1em 0.2em;
-    font-size: 32px;
+    font-size: 34px;
 }
 
 .container p {
     color: white;
-    font-size: 10px;
+    font-size: 20px;
     text-shadow: black 0.1em 0.1em 0.2em;
 }
 
@@ -35,18 +35,44 @@
 
 .container-1 {
     display: flex;
-    width: 100%;
+    margin-top: 50px;
+    margin-left: -280px;
+    width: 180vh;
     height: 84vh;
 }
 
+.container-1 .container-2 {
+    width: 60vh;
+}
+
+.container-1 .container-3 {
+    width: 60vh;
+}
+
+.container-1 .container-4 {
+    width: 60vh;
+}
 
 @media (max-width: 768px) {
-    .jumbotron h1 {
+    .container h1 {
+        margin-top: 120px;
         font-size: 30px;
     }
 
-    .jumbotron p {
-        font-size: 16px;
+    .container h4 {
+        font-size: 24px;
+    }
+
+    .container-1 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        margin-left: -10px;
+    }
+
+    .container p {
+        font-size: 10px;
     }
 
     .container-fluid{
@@ -56,6 +82,18 @@
 
     .rodape {
         margin-top: 400px;
+    }
+
+    .container-1 .container-2 {
+        width: 100%;
+    }
+    
+    .container-1 .container-3 {
+        width: 100%;
+    }
+    
+    .container-1 .container-4 {
+        width: 100%;
     }
 }
 

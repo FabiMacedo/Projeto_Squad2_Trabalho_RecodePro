@@ -1,6 +1,6 @@
 <?php
 
-    include_once './banco de dados/conexao.php';
+    include_once './backend/conexao.php';
 
 //Libera uma variavel global session.
     session_start();

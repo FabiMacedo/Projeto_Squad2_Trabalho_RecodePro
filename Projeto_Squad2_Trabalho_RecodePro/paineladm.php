@@ -1,6 +1,6 @@
 <?php
 
-    include_once './banco de dados/conexao.php';
+    include_once './backend/conexao.php';
 
     $sel = "SELECT * FROM usuarios";
     $result = $conn->query($sel);

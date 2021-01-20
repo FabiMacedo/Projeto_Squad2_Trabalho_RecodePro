@@ -27,6 +27,13 @@
                 <input type="email" name="email" placeholder="Digite seu e-mail">
                 <input type="password" name="senha" placeholder="Digite sua senha">
                 <input type="password" name="conf_senha" placeholder="Confirme sua senha">
+                <p class="escolha">Gostaria de atuar em qual área?</p>
+                <div class="escolha-1">
+                    <input type="radio" name="cursoescolhido" id="Front-end" value="Front-end">
+                    <span>Front-end</span>
+                    <input type="radio" name="cursoescolhido" id="Back-end" value="Back-end">
+                    <span>Back-end</span>
+                </div>
                 <button>Cadastre-se</button>
                 <a href="./login.php">Já possui cadastro? Faça o login</a>
             </form>
