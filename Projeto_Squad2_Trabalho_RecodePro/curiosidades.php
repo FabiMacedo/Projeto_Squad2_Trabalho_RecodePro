@@ -23,7 +23,9 @@
         <div class="row"> 
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="..." alt="Card image cap">
+                    <video class="card-img-top" controls="controls">
+                        <source src="./imagens/curiosidades.mp4" type="video/mp4" />
+                    </video>
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -56,7 +58,7 @@
         </div> 
     </div>
 
-    <div class="curiosidades mt-5">
+    <div class="curiosidades mt-5 mb-5">
         <div class="row"> 
             <div class="col">
                 <div class="card" style="width: 18rem;">
