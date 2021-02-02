@@ -37,8 +37,6 @@
             <p class="d-flex mx-2 mb-2 text-center"> A nossa missão é formar alunos surdos com habilidades técnicas e socioemocionais, a fim de capacita-los para atuar no mercado de trabalho com excelência.
         </div>
     </div>
-    <?php
-        /* include_once('footer.html'); */
-    ?>
+
 </body>
 </html>

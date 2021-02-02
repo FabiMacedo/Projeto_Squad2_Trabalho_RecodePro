@@ -29,6 +29,22 @@ table caption {
     color: var(--color-text-complement);
 }
 
+.section-adm1 .action-1 {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.section-adm1 a {
+    font-size: 20px;
+    color: var(--color-text-complement);
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
 .div-table-adm1 {
     overflow-y:auto;
     

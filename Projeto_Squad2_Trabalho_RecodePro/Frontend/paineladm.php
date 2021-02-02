@@ -75,6 +75,7 @@
                             <th scope="col">Email</th>
                             <th scope="col">Telefone</th>
                             <th scope="col">Mensagem</th>
+                            <th scope="col">Ações</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -86,6 +87,12 @@
                                             <td><?= $msg['email']; ?></td>
                                             <td><?= $msg['telefone']; ?></td>
                                             <td><?= $msg['mensagem']; ?></td>
+                                            <td class="action-1">
+                                                <a href="atualizar.php?usuario=<?php echo $msg['id']; ?>">Editar</a>
+                                                <a href="javascript: if(confirm('Tem certeza que deseja deletar o comentario <?= $msg['nome']; ?> ?'))
+                                                location.href='deletar.php?usuario=<?php echo $msg['id']; ?> ';">Deletar</a>
+                                            </td>
+                                            
                                         </tr>
                                     <?php endwhile; ?>  
                                     <?php else: ?>    

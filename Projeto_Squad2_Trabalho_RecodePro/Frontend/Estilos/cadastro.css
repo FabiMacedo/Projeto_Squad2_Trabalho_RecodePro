@@ -124,3 +124,207 @@ input[type=radio] {
         margin-left: -400px;
     }
 }
+
+@media (max-width: 415px) {
+    .quadrado {
+        width: 400px;
+        height: 500px;
+        background-color: #fc6c18;
+        border-radius: 6px;
+        padding: 16px;
+        margin-top: 100px;
+    }
+    
+    .quadrado h1{
+        font-weight: bold;
+        /* text-shadow: black 0.1em 0.1em 0.2em; */
+        font-size: 30px;
+        text-align: center;
+        
+    }
+    
+    .quadrado input{
+        display: block;
+        width: 80%;
+        height: 30px;
+        border: 1px solid  #cccccc;
+        border-radius: 15px;
+        margin: 12px auto 0px;
+        padding-left: 8px;
+    }
+    
+    .quadrado button{
+        display: block;
+        width: 80%;
+        height: 40px;
+        border: 1px solid #cccccc;
+        border-radius: 6px;
+        text-align: center;
+        margin: 16px auto 0px;
+        color: #ffffff;
+        background-color: #0b7cb1;
+       /*  text-shadow: black 0.1em 0.1em 0.2em;; */
+    }
+
+    .fundocadastro .quadrado p {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    .quadrado .escolha-1 input{
+        margin-left: -70px;
+    }
+
+    .quadrado .escolha-1 span{
+        font-size: 12px;
+        margin-top: 16px;
+    }
+    
+    .quadrado a{
+        color: black;
+        font-weight: bold;
+        /* text-shadow: black 0.1em 0.1em 0.2em; */
+        display: block;
+        width: 80%;
+        margin: 8px auto 0px;
+        font-size: 10px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 376px) {
+    .quadrado {
+        width: 400px;
+        height: 450px;
+        background-color: #fc6c18;
+        border-radius: 6px;
+        padding: 16px;
+        margin-top: 100px;
+    }
+    
+    .quadrado h1{
+        font-weight: bold;
+        /* text-shadow: black 0.1em 0.1em 0.2em; */
+        font-size: 30px;
+        text-align: center;
+        margin-top: -10px;
+    }
+    
+    .quadrado input{
+        display: block;
+        width: 80%;
+        height: 30px;
+        border: 1px solid  #cccccc;
+        border-radius: 15px;
+        margin: 12px auto 0px;
+        padding-left: 8px;
+    }
+    
+    .quadrado button{
+        display: block;
+        width: 80%;
+        height: 40px;
+        border: 1px solid #cccccc;
+        border-radius: 6px;
+        text-align: center;
+        margin: 16px auto 0px;
+        color: #ffffff;
+        background-color: #0b7cb1;
+       /*  text-shadow: black 0.1em 0.1em 0.2em;; */
+    }
+
+    .fundocadastro .quadrado p {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    .quadrado .escolha-1 input{
+        margin-left: -70px;
+    }
+
+    .quadrado .escolha-1 span{
+        font-size: 12px;
+        margin-top: 16px;
+    }
+    
+    .quadrado a{
+        color: black;
+        font-weight: bold;
+        /* text-shadow: black 0.1em 0.1em 0.2em; */
+        display: block;
+        width: 80%;
+        margin: 8px auto 0px;
+        font-size: 10px;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 361px) {
+    
+    .quadrado {
+        width: 400px;
+        height: 480px;
+        background-color: #fc6c18;
+        border-radius: 6px;
+        padding: 16px;
+        margin-top: 100px;
+    }
+    
+    .quadrado h1{
+        font-weight: bold;
+        /* text-shadow: black 0.1em 0.1em 0.2em; */
+        font-size: 30px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .quadrado input{
+        display: block;
+        width: 80%;
+        height: 30px;
+        border: 1px solid  #cccccc;
+        border-radius: 15px;
+        margin: 12px auto 0px;
+        padding-left: 8px;
+    }
+    
+    .quadrado button{
+        display: block;
+        width: 80%;
+        height: 40px;
+        border: 1px solid #cccccc;
+        border-radius: 6px;
+        text-align: center;
+        margin: 16px auto 0px;
+        color: #ffffff;
+        background-color: #0b7cb1;
+       /*  text-shadow: black 0.1em 0.1em 0.2em;; */
+    }
+
+    .fundocadastro .quadrado p {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    .quadrado .escolha-1 input{
+        margin-left: -60px;
+    }
+
+    .quadrado .escolha-1 span{
+        font-size: 12px;
+        margin-top: 16px;
+    }
+    
+    .quadrado a{
+        color: black;
+        font-weight: bold;
+        /* text-shadow: black 0.1em 0.1em 0.2em; */
+        display: block;
+        width: 80%;
+        margin: 8px auto 0px;
+        font-size: 10px;
+        text-align: center;
+    }
+}
+
