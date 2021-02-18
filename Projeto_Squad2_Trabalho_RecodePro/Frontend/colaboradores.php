@@ -20,72 +20,31 @@
     ?>
     
     <h1 class="h1-responsive mb-4">Nossos Colaboradores</h1>
-
-    <div class="curiosidades mt-5">
+    <h3>Aqui é a área do nosso site destinada aos nossos colaboradores. São nossos voluntários e são parte fundamental neste projeto de inclusão do surdo no mercado de trabalho através da programação.</h3>
+    <div class="colaboradores mt-5">
         <div class="row"> 
             <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <video class="card-img-top" controls="controls" autoplay>
-                        <source src="./videos/colaboradores.mp4" type="video/mp4"/>
-                    </video>
+                <div class="card" style="width: 300px; height: 550px">
+                    <img src="./Imagens/parceiros/ana.png" alt="">
                     <div class="card-body">
-                    <h5 class="card-title">Nossos Anjos!</h5>
-                        <p class="card-text">Aqui é a área do nosso site destinada aos nossos colaboradores. São nossos voluntários e são parte fundamental neste projeto de inclusão do surdo no mercado de trabalho através da programação.</p>
+                    <h5 class="card-title">Ana Paula Koszt</h5>
+                    <p class="card-text">Graduada em Pedagogia e Pós graduada em educação especial, 
+                        é professora de libras na escola PRONATEC SP, voluntária no centro de educação 
+                        para Surdos em Rio Branco e agente de inclusão escolar no município de Barueri.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 300px; height: 550px">
+                    <img src="./Imagens/parceiros/dayane.png" alt="">
+                    <div class="card-body">
+                    <h5 class="card-title">Dayane Karoline R. Rainato</h5>
+                    <p class="card-text">Graduada em Fonoaudiologia com aprimoramento em linguagem, 
+                        possui conhecimento em libras através de cursos e contato com a comunidade Surda e intérpretes.</p>
                     </div>
                 </div>
             </div> 
             
-            <!-- <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src=".../100px180/?text=Image cap" alt="Imagem de capa do card">
-                    <div class="card-body">
-                        <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
-                    </div>
-                </div>
-            </div> 
-
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src=".../100px180/?text=Image cap" alt="Imagem de capa do card">
-                    <div class="card-body">
-                        <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
-                    </div>
-                </div>
-            </div>
-        </div> 
-    </div>
-
-    <div class="curiosidades mt-5 mb-5">
-        <div class="row"> 
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src=".../100px180/?text=Image cap" alt="Imagem de capa do card">
-                    <div class="card-body">
-                        <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
-                    </div>
-                </div>
-            </div> 
-            
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src=".../100px180/?text=Image cap" alt="Imagem de capa do card">
-                    <div class="card-body">
-                        <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
-                    </div>
-                </div>
-            </div> 
-
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src=".../100px180/?text=Image cap" alt="Imagem de capa do card">
-                    <div class="card-body">
-                        <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
-                    </div>
-                </div> 
-            </div>
-        </div>
-
-    </div> -->
     </div>
 
 </body>

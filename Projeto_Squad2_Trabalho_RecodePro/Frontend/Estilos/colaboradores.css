@@ -5,6 +5,12 @@
 
 }
 
+.container h3 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
 .container h1 {
     margin-top: 80px;
     text-align: center;
@@ -13,12 +19,13 @@
     text-shadow: black 0.1em 0.1em 0.2em;
 }
 
-.curiosidades {
+.container h5 {
+    text-align: center;
+}
+
+.colaboradores {
     display: flex;
     justify-content: center;
-    align-items: center;
-    
-
 }
 
 @media (max-width: 768px) {
@@ -27,11 +34,29 @@
         font-size: 30px;
     }
 
-    .curiosidades {
-        margin-left: 40px;
-    }
-
     .card {
         margin-top: 10px;
+    }
+}
+
+@media (max-width: 541px) {
+    .colaboradores {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 415px) {
+    .container h3 {
+        font-size: 16px;
+    }
+
+    .colaboradores {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 376px) {
+    .colaboradores {
+        margin-left: 20px;
     }
 }

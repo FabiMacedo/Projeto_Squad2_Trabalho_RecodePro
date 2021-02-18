@@ -1,14 +1,16 @@
-.container{
+.container1{
+    display: flex;
     width: 100%;
     height: 100vh;
     background-image: linear-gradient(to right, #61b8e0, #0b7cb1 );
 
 }
 
-.fundologin {
+.container1 .fundologin {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 50%;
     height: 100%;
 }
 
@@ -23,7 +25,6 @@
 
 .qualquer h1{
     font-weight: bold;
-    /* text-shadow: black 0.1em 0.1em 0.2em; */
     font-size: 32px;
     text-align: center;
     margin-top: 40px;
@@ -31,7 +32,7 @@
 
 .qualquer input {
     display: block;
-    width: 80%;
+    width: 100%;
     height: 40px;
     border: 0;
     border-radius: 15px;
@@ -41,7 +42,7 @@
 
 .qualquer button{
     display: block;
-    width: 80%;
+    width: 100%;
     height: 40px;
     border: 1px solid #cccccc;
     border-radius: 6px;
@@ -49,28 +50,39 @@
     margin: 16px auto 0px;
     color: #ffffff;
     background-color: #0b7cb1;
-    /* text-shadow: black 0.1em 0.1em 0.2em;; */
 }
 
 .qualquer a{
     color: black;
     font-weight: bold;
-    /* text-shadow: black 0.1em 0.1em 0.2em; */
     display: block;
-    width: 80%;
+    width: 90%;
     margin: 8px auto 0px;
     font-size: 18px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 16px;
 }
 
-.rodape {
-    text-align: center;
-    padding: 15px;
-    margin-right: 15px;
+.imagemlogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 50%;
+    height: 100%;
 }
 
+.imagemlogin img{
+    width: 600px;
+    height: 600px;
+}
 
+@media (max-width: 1000px) {
+    .imagemlogin img{
+        width: 400px;
+        height: 400px;
+    }
+}
 
 @media (max-width: 768px) {
 
@@ -88,6 +100,21 @@
     
     .qualquer a {
         font-size: 16px;
+    }
+}
+
+@media (max-width: 700px) {
+    .container1 .fundologin {
+        width: 100%;
+        
+    }
+
+    .imagemlogin {
+        width: 0%;
+    }
+
+    .imagemlogin img {
+        display: none;
     }
 }
 

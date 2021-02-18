@@ -18,24 +18,11 @@
     ?>
     
     <h1 class="h1-responsive mb-4">Curiosidades sobre a comunidade surda</h1>
-
+    <h3>Aqui é a área do nosso site destinada a curiosidades e informações relevantes sobre a comunidade surda. </h3>
     <div class="curiosidades mt-5">
-        <div class="row"> 
+        <div class="row">  
             <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <video class="card-img-top" controls="controls" autoplay>
-                        <source src="./videos/curiosidades.mp4" type="video/mp4" />
-                    </video>
-                    <div class="card-body">
-                        <h5 class="card-title">Curiosidades</h5>
-                        <p class="card-text">Aqui é a área do nosso site destinada a curiosidades e informações relevantes sobre a comunidade surda. </p>
-                        <a href="curiosidades.php" class="btn btn-primary">Saiba mais</a>
-                    </div>
-                </div>   
-            </div> 
-            
-            <div class="col">
-                <div class="card" style="width: 18rem;">
+                <div class="card" style="width: 300px; height: 550px">
                     <img class="card-img-top" src="./imagens/handtalk.png" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Hand Talk</h5>
@@ -46,7 +33,7 @@
             </div> 
 
             <div class="col">
-                <div class="card" style="width: 18rem;">
+                <div class="card" style="width: 300px; height: 550px">
                     <img class="card-img-top" src="./imagens/setembroazul.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Você sabia???</h5>
@@ -58,48 +45,6 @@
         </div> 
     </div>
 
-   <!-- <div class="curiosidades mt-5">
-        <div class="row"> 
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="..." alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>   
-            </div> 
-            
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="..." alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div> 
-
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="..." alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
-    </div>
-
-    <?php
-       /*  include_once('footer.html'); */
-    ?>  
 </body>
 
 </html>

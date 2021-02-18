@@ -13,23 +13,27 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 
-<body class="container">
+<body>
     <?php
         include_once('menu.html');
-    ?>        
-    <div class="fundologin">
-        <div class="qualquer">                
-            <form action="login_usuario.php" method="post">
-                <h1>Entre ou Cadastre-se</h1>
-                <input type="email" name="email" placeholder="Email">
-                <input type="password" name="senha" placeholder="Senha">
-                <button>Enviar</button>
-                <a href="./cadastro.php">Ainda não possui cadastro?<br /> Clique aqui!</a>
-            </form>
+    ?>
+    <div class="container1">
+        <div class="fundologin">
+            <div class="qualquer">                
+                <form action="login_usuario.php" method="post">
+                    <h1>Entre ou Cadastre-se</h1>
+                    <input type="email" name="email" placeholder="Email">
+                    <input type="password" name="senha" placeholder="Senha">
+                    <button>Enviar</button>
+                    <a href="./cadastro.php">Ainda não possui cadastro?<br /> Clique aqui!</a>
+                </form>
+            </div>
         </div>
-    </div>  
-    <?php
-        /* include_once('footer.html'); */
-    ?>  
+        <div class="imagemlogin">
+            <img src="./Imagens/Login/fundo.png" alt="">
+        </div>
+    </div>        
+    
+
 </body>
 </html>

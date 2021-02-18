@@ -8,6 +8,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 100px;
+    background-color: #0b7cb1;
 }
 
 .container1 h1 {
@@ -77,6 +78,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 100px;
+    background-color: #0b7cb1;
 }
 
 .container2 h1 {

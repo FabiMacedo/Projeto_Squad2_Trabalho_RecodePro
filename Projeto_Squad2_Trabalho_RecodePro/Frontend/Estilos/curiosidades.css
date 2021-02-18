@@ -13,6 +13,12 @@
     text-shadow: black 0.1em 0.1em 0.2em;
 }
 
+.container h3 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
 .curiosidades {
     display: flex;
     justify-content: center;
@@ -25,11 +31,27 @@
         font-size: 30px;
     }
 
+    .card {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 415px) {
+    .container h1 {
+        font-size: 26px;
+    }
+
+    .container h3 {
+        font-size: 16px;
+    }
+
     .curiosidades {
         margin-left: 40px;
     }
+}
 
-    .card {
-        margin-top: 10px;
+@media (max-width: 376px) {
+    .curiosidades {
+        margin-left: 20px;
     }
 }

@@ -13,31 +13,39 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 
-<body class="container">
+<body>
     <?php
         include_once('menu.html');
     ?>
-
-    <div class="fundocadastro">
-        <div class="quadrado">
-            <form action="cadastro_usuario.php" method="post">
-                <h1>Cadastre-se</h1>
-                <input type="text" name="nome" placeholder="Digite o seu nome">
-                <input type="text" name="sobrenome" placeholder="Digite o seu sobrenome">
-                <input type="email" name="email" placeholder="Digite seu e-mail">
-                <input type="password" name="senha" placeholder="Digite sua senha">
-                <input type="password" name="conf_senha" placeholder="Confirme sua senha">
-                <p class="escolha">Gostaria de atuar em qual área?</p>
-                <div class="escolha-1">
-                    <input type="radio" name="id_curso" id="Front-end" value="1">
-                    <span>Front-end</span>
-                    <input type="radio" name="id_curso" id="Back-end" value="2">
-                    <span>Back-end</span>
-                </div>
-                <button>Cadastre-se</button>
-                <a href="./login.php">Já possui cadastro? Faça o login</a>
-            </form>
+    <div class="container1">
+        <div class="fundocadastro">
+            <div class="quadrado">
+                <form action="cadastro_usuario.php" method="post">
+                    <h1>Cadastre-se</h1>
+                    <input type="text" name="nome" placeholder="Digite o seu nome....">
+                    <input type="text" name="sobrenome" placeholder="Digite o seu sobrenome....">
+                    <input type="email" name="email" placeholder="Digite seu e-mail ( ex: teste@email.com )....">
+                    <input type="password" name="senha" placeholder="Digite sua senha....">
+                    <input type="password" name="conf_senha" placeholder="Confirme sua senha....">
+                    <p class="escolha">Gostaria de atuar em qual área?</p>
+                    <div class="escolha-1">
+                        <div class="front">
+                            <input type="radio" name="id_curso" id="Front-end" value="1">Front-end</input>
+                        </div>
+                        <div class="back">
+                            <input type="radio" name="id_curso" id="Back-end" value="2">Back-end</input>
+                        </div>
+                    </div>
+                    <button>Cadastre-se</button>
+                    <a href="./login.php">Já possui cadastro? Faça o login</a>
+                </form>
+            </div>  
+        </div>
+        <div class="imagemcadastro">
+            <img src="./Imagens/cadastro/fundo.png" alt="">
         </div>
     </div>
 </body>
 </html>
+
+

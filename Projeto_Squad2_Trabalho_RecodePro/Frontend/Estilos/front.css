@@ -15,7 +15,7 @@
 }
 
 .container1 .cursoconteudo .listaaula {
-    background-color: #fc6c18;
+    background-color: #575757;
     margin-top: 20px;
     border-style: groove;
     border-radius: 16px;
@@ -24,6 +24,7 @@
 
 .container1 .cursoconteudo .listaaula .intro h2 {
     margin-left: 10px;
+    color: white;
 }
 
 .container1 .cursoconteudo .listaaula .intro .intro-1 {
@@ -38,6 +39,7 @@
 
 .container1 .cursoconteudo .listaaula .intro .intro-1 p {
     margin: 0 0 0 10px;
+    color: white;
 }
 
 .container1 .cursoconteudo .videoaula {
@@ -52,6 +54,10 @@
 .container1 .cursoconteudo .videoaula h1 {
     padding: 10px 0 0 10px;
     margin-top: 0 !important;
+}
+
+.container1 .cursoconteudo .videoaula video {
+    height: 500px;
 }
 
 
@@ -76,4 +82,129 @@
 .container1 .footer .logos img {
     width: 40px;
     height: 40px;
+}
+
+@media (max-width: 1025px) {
+    .container1 h1 {
+        margin-top: 100px;
+    }
+
+    .container1 .cursoconteudo .listaaula .intro h2 {
+        font-size: 20px;
+    }
+
+    .container1 .cursoconteudo .listaaula .intro .intro-1 img {
+        width: 30px;
+    }
+
+    .container1 .cursoconteudo .listaaula .intro .intro-1 p {
+        font-size: 10px;
+    }
+
+    .container1 .cursoconteudo .videoaula h1 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 541px) {
+    .container1 h1 {
+        font-size: 24px;
+    }
+
+    .container1 h3 {
+        font-size: 16px;
+    }
+
+    .container1 .cursoconteudo .listaaula .intro h2 {
+        font-size: 12px;
+    }
+
+    .container1 .cursoconteudo .listaaula .intro .intro-1 img {
+        width: 20px;
+    }
+
+    .container1 .cursoconteudo .listaaula .intro .intro-1 p {
+        font-size: 8px;
+    }
+
+    .container1 .cursoconteudo .videoaula {
+        height: 400px;
+    }
+
+    .container1 .cursoconteudo .videoaula h1 {
+        font-size: 16px;
+    }
+
+    .container1 .cursoconteudo .videoaula video {
+        height: 300px;
+    }
+
+    .container1 .footer {
+        margin-top: -60px;
+    }
+    
+    .container1 .footer h1 {
+        font-size: 16px;
+    }
+    
+    .container1 .footer .logos {
+        width: 30%;
+    }
+    
+    .container1 .footer .logos img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 415px) {
+    .container1 .cursoconteudo {
+        flex-direction: column;
+    }
+
+    .container1 .cursoconteudo .listaaula {
+        width: 100%;
+    }
+
+    .container1 .cursoconteudo .videoaula {
+        width: 100%;
+        margin: 10px 0 0 0;
+        height: 300px;
+    }
+
+    .container1 .cursoconteudo .videoaula video {
+        height: 250px;
+    }
+}
+
+@media (max-width: 376px) {
+    .container1 .cursoconteudo .videoaula {
+        width: 100%;
+        margin: 10px 0 0 0;
+        height: 260px;
+    }
+
+    .container1 .cursoconteudo .videoaula video {
+        height: 200px;
+    }
+    
+    .container1 .footer h1 {
+        font-size: 14px;
+    }
+    
+    .container1 .footer .logos {
+        margin-top: 0px;
+        width: 40%;
+    }
+    
+    .container1 .footer .logos img {
+        width: 30px;
+        height: 30px;
+    } 
+}
+
+@media (max-width: 361px) {
+    .container1 .footer {
+        margin-top: -90px;
+    }
 }

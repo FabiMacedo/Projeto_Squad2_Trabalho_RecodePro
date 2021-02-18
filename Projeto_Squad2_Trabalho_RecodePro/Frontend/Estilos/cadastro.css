@@ -1,5 +1,6 @@
 
-.container{ 
+.container1{
+    display: flex;
     width: 100%;
     height: 100vh;
     background-image: linear-gradient(to right, #61b8e0, #0b7cb1 );
@@ -10,12 +11,11 @@
     justify-content: center;
     align-items: center;
     height: 100%;
+    width: 50%;
 }
 
 .quadrado {
-    
-    width: 400px;
-    height: 600px;
+    width: 40%;
     background-color: #fc6c18;
     border-radius: 6px;
     padding: 16px;
@@ -25,15 +25,12 @@
 
 .quadrado h1{
     font-weight: bold;
-    /* text-shadow: black 0.1em 0.1em 0.2em; */
     font-size: 32px;
     text-align: center;
-    margin-top: 20px;
 }
 
 .quadrado input{
-    display: block;
-    width: 80%;
+    width: 100%;
     height: 40px;
     border: 1px solid  #cccccc;
     border-radius: 15px;
@@ -42,8 +39,7 @@
 }
 
 .quadrado button{
-    display: block;
-    width: 80%;
+    width: 100%;
     height: 40px;
     border: 1px solid #cccccc;
     border-radius: 6px;
@@ -51,15 +47,13 @@
     margin: 16px auto 0px;
     color: #ffffff;
     background-color: #0b7cb1;
-   /*  text-shadow: black 0.1em 0.1em 0.2em;; */
 }
 
 .quadrado a{
     color: black;
     font-weight: bold;
-    /* text-shadow: black 0.1em 0.1em 0.2em; */
     display: block;
-    width: 80%;
+    width: 70%;
     margin: 8px auto 0px;
     font-size: 18px;
     text-align: center;
@@ -71,22 +65,25 @@
     font-size: 20px;
     color: black;
     font-weight: bold;
-    /* text-shadow: black 0.1em 0.1em 0.2em; */
+    
 }
 
 .quadrado .escolha-1 {
     display: flex;
+    justify-content: space-between;
     font-size: 14px;
     font-weight: bold;
+    
 }
 
-.quadrado .escolha-1 input{
-    margin-left: -130px;
+.quadrado .escolha-1 .front{
+    text-align: center;
+    width: 50%;
 }
 
-.quadrado .escolha-1 span{
-    margin-top: 10px;
-    margin-left: -300px;
+.quadrado .escolha-1 .back{
+    text-align: center;
+    width: 50%;
 }
 
 
@@ -96,167 +93,100 @@ input[type=radio] {
     height: 20px;
 }
 
+.container1 .imagemcadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    height: 100%;
+    width: 50%;
+}
 
-.rodape {
-    text-align: center;
-    padding: 15px;
-    margin-right: 15px;
+.container1 .imagemcadastro img {
+    width: 800px;
+    height: 800px;
+}
+
+@media (max-width: 1377px) {
+    .quadrado input{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1025px) {
+    .quadrado a{
+        font-size: 14px;
+    }
+
+    .quadrado .escolha {
+        font-size: 14px;
+    }
 }
 
 
-@media (max-width: 768px) {
-
-    .quadrado {
-        margin-top: 130px;
-        height: 620px;
+@media (max-width: 769px) {
+    .quadrado h1{
+        font-size: 22px;
     }
 
-    .quadrado p {
+    .quadrado a{
         font-size: 12px;
     }
 
-    .qualquer button{
-        width: 100%;
+    .quadrado .escolha {
+        font-size: 12px;
     }
+
+    .quadrado .escolha-1{
+        font-size: 12px;
+    }
+
+    .container1 .imagemcadastro img {
+        width: 500px;
+        height: 500px;
+    }
+
     
-    .quadrado .escolha-1 span{
-        margin-top: 10px;
-        margin-left: -400px;
-    }
 }
 
 @media (max-width: 415px) {
     .quadrado {
         width: 400px;
-        height: 500px;
+        height: 550px;
         background-color: #fc6c18;
         border-radius: 6px;
         padding: 16px;
         margin-top: 100px;
     }
-    
-    .quadrado h1{
-        font-weight: bold;
-        /* text-shadow: black 0.1em 0.1em 0.2em; */
-        font-size: 30px;
-        text-align: center;
-        
-    }
-    
-    .quadrado input{
-        display: block;
-        width: 80%;
-        height: 30px;
-        border: 1px solid  #cccccc;
-        border-radius: 15px;
-        margin: 12px auto 0px;
-        padding-left: 8px;
-    }
-    
-    .quadrado button{
-        display: block;
-        width: 80%;
-        height: 40px;
-        border: 1px solid #cccccc;
-        border-radius: 6px;
-        text-align: center;
-        margin: 16px auto 0px;
-        color: #ffffff;
-        background-color: #0b7cb1;
-       /*  text-shadow: black 0.1em 0.1em 0.2em;; */
+
+    .container1 .fundocadastro {
+        width: 100%;
     }
 
-    .fundocadastro .quadrado p {
-        margin-top: 10px;
-        font-size: 14px;
+    .container1 .imagemcadastro {
+        width: 0%;
     }
 
-    .quadrado .escolha-1 input{
-        margin-left: -70px;
-    }
-
-    .quadrado .escolha-1 span{
-        font-size: 12px;
-        margin-top: 16px;
-    }
-    
-    .quadrado a{
-        color: black;
-        font-weight: bold;
-        /* text-shadow: black 0.1em 0.1em 0.2em; */
-        display: block;
-        width: 80%;
-        margin: 8px auto 0px;
-        font-size: 10px;
-        text-align: center;
+    .container1 .imagemcadastro img {
+        display: none;
     }
 }
 
 @media (max-width: 376px) {
     .quadrado {
         width: 400px;
-        height: 450px;
-        background-color: #fc6c18;
-        border-radius: 6px;
-        padding: 16px;
-        margin-top: 100px;
-    }
-    
-    .quadrado h1{
-        font-weight: bold;
-        /* text-shadow: black 0.1em 0.1em 0.2em; */
-        font-size: 30px;
-        text-align: center;
-        margin-top: -10px;
+        height: 500px;
     }
     
     .quadrado input{
         display: block;
-        width: 80%;
-        height: 30px;
+        width: 100%;
         border: 1px solid  #cccccc;
         border-radius: 15px;
         margin: 12px auto 0px;
         padding-left: 8px;
     }
-    
-    .quadrado button{
-        display: block;
-        width: 80%;
-        height: 40px;
-        border: 1px solid #cccccc;
-        border-radius: 6px;
-        text-align: center;
-        margin: 16px auto 0px;
-        color: #ffffff;
-        background-color: #0b7cb1;
-       /*  text-shadow: black 0.1em 0.1em 0.2em;; */
-    }
 
-    .fundocadastro .quadrado p {
-        margin-top: 10px;
-        font-size: 14px;
-    }
-
-    .quadrado .escolha-1 input{
-        margin-left: -70px;
-    }
-
-    .quadrado .escolha-1 span{
-        font-size: 12px;
-        margin-top: 16px;
-    }
-    
-    .quadrado a{
-        color: black;
-        font-weight: bold;
-        /* text-shadow: black 0.1em 0.1em 0.2em; */
-        display: block;
-        width: 80%;
-        margin: 8px auto 0px;
-        font-size: 10px;
-        text-align: center;
-    }
 }
 
 
@@ -264,67 +194,66 @@ input[type=radio] {
     
     .quadrado {
         width: 400px;
-        height: 480px;
+        height: 500px;
         background-color: #fc6c18;
         border-radius: 6px;
         padding: 16px;
-        margin-top: 100px;
     }
     
     .quadrado h1{
-        font-weight: bold;
-        /* text-shadow: black 0.1em 0.1em 0.2em; */
-        font-size: 30px;
-        text-align: center;
-        margin-top: 20px;
+        font-size: 26px;
     }
     
     .quadrado input{
-        display: block;
-        width: 80%;
-        height: 30px;
-        border: 1px solid  #cccccc;
-        border-radius: 15px;
-        margin: 12px auto 0px;
-        padding-left: 8px;
+        width: 100%;
     }
     
     .quadrado button{
-        display: block;
-        width: 80%;
-        height: 40px;
-        border: 1px solid #cccccc;
-        border-radius: 6px;
-        text-align: center;
-        margin: 16px auto 0px;
-        color: #ffffff;
-        background-color: #0b7cb1;
-       /*  text-shadow: black 0.1em 0.1em 0.2em;; */
+        width: 100%;
     }
 
     .fundocadastro .quadrado p {
-        margin-top: 10px;
         font-size: 14px;
-    }
-
-    .quadrado .escolha-1 input{
-        margin-left: -60px;
-    }
-
-    .quadrado .escolha-1 span{
-        font-size: 12px;
-        margin-top: 16px;
     }
     
     .quadrado a{
-        color: black;
-        font-weight: bold;
-        /* text-shadow: black 0.1em 0.1em 0.2em; */
-        display: block;
-        width: 80%;
-        margin: 8px auto 0px;
         font-size: 10px;
-        text-align: center;
+        
+    }
+}
+
+@media (max-width: 321px) {
+    .quadrado {
+        height: 440px;
+    }
+    
+    .quadrado h1{
+        font-size: 22px;
+    }
+    
+    .quadrado input{
+        width: 100%;
+        height: 30px;
+    }
+    
+    .quadrado button{
+        height: 30px;
+        width: 100%;
+    }
+
+    .fundocadastro .quadrado p {
+        font-size: 12px;
+    }
+    
+    .quadrado a{
+        font-size: 10px;
+        
+    }
+
+    input[type=radio] {
+        border: 0px;
+        width: 100%;
+        height: 15px;
     }
 }
 

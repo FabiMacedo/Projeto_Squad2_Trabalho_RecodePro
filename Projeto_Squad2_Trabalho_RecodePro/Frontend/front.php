@@ -54,7 +54,7 @@
             </div>
             <div class="videoaula">
                 <h1>Recepção aos alunos</h1>
-                <video class="card-img-top" controls="controls" height="500px" autoplay>
+                <video class="card-img-top" controls="controls" autoplay>
                     <source src="./videos/teste.mp4" type="video/mp4" />
                 </video>
             </div>
@@ -65,6 +65,7 @@
                 <a href="https://www.facebook.com/sinal.code.1" class="facebook"><img src="./Imagens/facebook.png" alt="Facebook - Sinal Code"/></a>
                 <a href="https://www.instagram.com/sinalcode2020/?hl=pt-br" class="instagram"><img src="./Imagens/instagram.png" alt="Instagram - Sinal Code"/></a>
                 <a href="mailto:codesinal@gmail.com?subject=subject text" class="gmail"><img src="./Imagens/gmail.png" alt="Email - Sinal Code"/></a>
+            </div>
         </div>
     </div> 
 

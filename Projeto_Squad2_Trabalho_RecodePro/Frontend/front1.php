@@ -54,7 +54,7 @@
             </div>
             <div class="videoaula">
                 <h1>1. Introdução - Uma breve história da internet </h1>
-                <video class="card-img-top" controls="controls" height="500px">
+                <video class="card-img-top" controls="controls">
                     <source src="./videos/teste.mp4" type="video/mp4" />
                 </video>
             </div>
