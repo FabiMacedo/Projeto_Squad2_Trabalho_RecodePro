@@ -9,6 +9,7 @@
     flex-direction: column;
     margin-top: 100px;
     background-color: #0b7cb1;
+    border-radius: 12px;
 }
 
 .container1 h1 {
@@ -79,6 +80,7 @@
     flex-direction: column;
     margin-top: 100px;
     background-color: #0b7cb1;
+    border-radius: 12px;
 }
 
 .container2 h1 {
