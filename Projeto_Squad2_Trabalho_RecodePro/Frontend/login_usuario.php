@@ -17,7 +17,7 @@
         $_SESSION['email'] = $usuarios[0][2];
         $_SESSION['senha'] = $usuarios[0][3];
 
-        header('Location: home.php');
+        header('Location: front.php');
     }
 
     else {

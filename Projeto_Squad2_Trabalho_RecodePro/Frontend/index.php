@@ -46,6 +46,14 @@
                     <p>Fácil adaptação do surdo nos<br />processos de trabalho</p>
                 </div>
             </div>
+        </div>
+        <div class="footer">
+            <h1>&copy; Desenvolvido por SQUAD 2 SPT2 - Recode Pro 2021</h1>
+            <div class="logos">
+                <a href="https://www.facebook.com/sinal.code.1" class="facebook"><img src="./Imagens/facebook.png" alt="Facebook - Sinal Code"/></a>
+                <a href="https://www.instagram.com/sinalcode2020/?hl=pt-br" class="instagram"><img src="./Imagens/instagram.png" alt="Instagram - Sinal Code"/></a>
+                <a href="mailto:codesinal@gmail.com?subject=subject text" class="gmail"><img src="./Imagens/gmail.png" alt="Email - Sinal Code"/></a>
+            </div>
         </div> 
     </div>
 </body>

@@ -20,23 +20,84 @@
         include_once('menu.html');
     ?>
     
-    <h1 class="h1-responsive mb-4">Quem Somos</h1>
-    <div class="container-1">
-        <div class="container-2">
-            <h4 class="">Proposta</h4>
-            <p class="d-flex mx-2 mb-2 text-center">São muitos os desafios enfrentados pelos surdos quando falamos de emprego em nosso país não é mesmo? Este é o desafio que move a equipe Sinal Code.<br>A nossa motivação é proporcionar ao surdo uma capacitação profissional que lhe garanta reconhecimento profissionale uma vida digna.<br>Compreendendo o processo diferenciado de aprendizagem dos surdos, a equipe Sinal Code desenvolveu um conteúdo pedagógico para atender especifidades a surdez.<br>Todas as vídeo aulas contam com um tradutor intérprete em Libras, e legenda de seu conteúdo.</p>
-        </div>            
+    <div class="container1">
+        <h1 class="h1-responsive mb-4">Quem Somos</h1>
+        <p>São muitos os desafios enfrentados pelos surdos, quando falamos de emprego em nosso país não é mesmo? Este é o desafio que move a equipe Sinal Code. Criado a partir do curso Recode Pro, a Sinal Code tem a proposta de fornecer uma plataforma de treinamento que visa capacitar os surdos em programação, buscando a quebra da barreira linguística</p>
+        <div class="container1-childreen">
+            <div class="container1-missao">
+                <img src="./Imagens/missao.png" alt="">
+                <h4 class="">Missão</h4>
+                <p class="d-flex mx-2 mb-2 text-center">A nossa missão é formar alunos surdos com habilidades técnicas e socioemocionais, a fim de capacita-los para atuar no mercado de trabalho com excelência.</p>
+            </div>            
 
-        <div class="container-3">
-            <h4 class="">História</h4>
-            <p class="d-flex mx-2 mb-2 text-center"> A equipe da Sinal Code é composta por jovens desenvolvedores Full Stack. Os membros Alan Diego, Ariane Gariso, Esdras Teixeira, Fabiana Macedo e Nataly Flores Pereira, alunos do curso de programação Full Stack da Recode Pro, tiveram como desafio proposto pela Recode Pro, em produzir um projeto social que promovesse a inserção de pessoas em situação de vulnerabilidade social no mercado de trabalho. A partir dessa inspiração, nasceu o projeto apaixonante Sinal Code.</p>
-        </div>
+            <div class="container1-visao">
+                <img src="./Imagens/visao.png" alt="">
+                <h4 class="">Visão</h4>
+                <p class="d-flex mx-2 mb-2 text-center">Através da capacitação, nossos alunos terão oportunidades melhores no mercado de trabalho.</p>
+            </div>
 
-        <div class="container-4">
-            <h4 class="">Missão</h4>
-            <p class="d-flex mx-2 mb-2 text-center"> A nossa missão é formar alunos surdos com habilidades técnicas e socioemocionais, a fim de capacita-los para atuar no mercado de trabalho com excelência.
+            <div class="container1-valores">
+                <img src="./Imagens/valores.png" alt="">
+                <h4 class="">Valores</h4>
+                <p class="d-flex mx-2 mb-2 text-center">Através do respeito e empatia com o surdo, nossas decisões tem como foco a missão e a visão e não abrimos mão disso.</p>
+            </div>
         </div>
     </div>
+    <div class="container2">
+        <h1>Nossa equipe</h1>
+        <div class="container2-childreen1">
+            <div class="colaboradores">
+                <img src="./Imagens/colaboradores/alan.png" alt="">
+                <p>Alan Diego Biz</p>
+                <div class="links">
+                    <a href="https://www.linkedin.com/in/alan-diego-biz-094921189/"><img src="./Imagens/colaboradores/linkedin.png" alt=""></a>
+                    <a href="https://github.com/alandiegobiz"><img src="./Imagens/colaboradores/github.png" alt=""></a>
+                </div>
+            </div>
+            <div class="colaboradores">
+                <img src="./Imagens/colaboradores/ariane.png" alt="">
+                <p>Ariane Gariso</p>
+                <div class="links">
+                    <a href="https://www.linkedin.com/in/ariane-carlo-b99ab11a4/"><img src="./Imagens/colaboradores/linkedin.png" alt=""></a>
+                    <a href="https://github.com/Arigariso"><img src="./Imagens/colaboradores/github.png" alt=""></a>
+                </div>
+            </div>
+            <div class="colaboradores">
+                <img src="./Imagens/colaboradores/esdras.png" alt="">
+                <p>Esdras Teixeira</p>
+                <div class="links">
+                    <a href="https://www.linkedin.com/in/esdras-teixeira-milagres-b656531b5/"><img src="./Imagens/colaboradores/linkedin.png" alt=""></a>
+                    <a href="https://github.com/Esdrashx"><img src="./Imagens/colaboradores/github.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="container2-childreen2">
+            <div class="colaboradores">
+                <img src="./Imagens/colaboradores/fabiana.png" alt="">
+                <p>Fabiana Macedo</p>
+                <div class="links">
+                    <a href="https://www.linkedin.com/in/fabiana-macedo-de-oliveira-andrade-de-sousa-714227174/"><img src="./Imagens/colaboradores/linkedin.png" alt=""></a>
+                    <a href="https://github.com/FabiMacedo"><img src="./Imagens/colaboradores/github.png" alt=""></a>
+                </div>
+            </div>
+            <div class="colaboradores">
+                <img src="./Imagens/colaboradores/nataly.png" alt="">
+                <p>Nataly Flores</p>
+                <div class="links">
+                    <a href="https://www.linkedin.com/in/nataly-flores-84122aa1/"><img src="./Imagens/colaboradores/linkedin.png" alt=""></a>
+                    <a href="https://github.com/natyxflow"><img src="./Imagens/colaboradores/github.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <h1>&copy; Desenvolvido por SQUAD 2 SPT2 - Recode Pro 2021</h1>
+        <div class="logos">
+            <a href="https://www.facebook.com/sinal.code.1" class="facebook"><img src="./Imagens/facebook.png" alt="Facebook - Sinal Code"/></a>
+            <a href="https://www.instagram.com/sinalcode2020/?hl=pt-br" class="instagram"><img src="./Imagens/instagram.png" alt="Instagram - Sinal Code"/></a>
+            <a href="mailto:codesinal@gmail.com?subject=subject text" class="gmail"><img src="./Imagens/gmail.png" alt="Email - Sinal Code"/></a>
+        </div>
+    </div> 
 
 </body>
 </html>
