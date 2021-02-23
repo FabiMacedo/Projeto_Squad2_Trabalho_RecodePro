@@ -55,7 +55,7 @@
             <div class="videoaula">
                 <h1>Recepção aos alunos</h1>
                 <video class="card-img-top" controls="controls" autoplay>
-                    <source src="./videos/teste.mp4" type="video/mp4" />
+                    <source src="./videos/recepcao.mp4" type="video/mp4" />
                 </video>
             </div>
         </div>

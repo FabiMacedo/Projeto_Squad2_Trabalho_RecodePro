@@ -12,13 +12,25 @@
 
     if (strlen($nome) > 2 && strlen($sobrenome) > 2 && strlen($email) > 3 && strlen($senha) > 3 && $senha === $conf_senha) {
         $senha_cripto = md5($senha);
-        $sql = "INSERT INTO usuarios (nome, sobrenome, email, senha, id_curso) values('$nome', '$sobrenome', '$email', '$senha_cripto', '$escolha')";
-        $conn->query($sql);
-        echo "<script>
-                alert('Seu cadastro foi efetuado com sucesso!')
-                window.location.href = 'login.php'
-                </script>
-                ";
+
+        $resultado_consulta = "SELECT * FROM usuarios WHERE email = '$email' LIMIT 1";
+        $resultado_consulta = mysqli_query($conn, $resultado_consulta);
+        $resultado_cadastro = mysqli_fetch_assoc($resultado_consulta);
+        if (!isset($resultado_cadastro)){
+            $sql = "INSERT INTO usuarios (nome, sobrenome, email, senha, id_curso) values('$nome', '$sobrenome', '$email', '$senha_cripto', '$escolha')";
+            $conn->query($sql);
+            echo "<script>
+                    alert('Seu cadastro foi efetuado com sucesso!')
+                    window.location.href = 'login.php'
+                    </script>
+                    ";
+        }else{
+            echo "<script>
+                    alert('Este email, já sendo utilizado por outro usuario !!!')
+                    window.location.href = 'cadastro.php'
+                    </script>";
+        }
+        
     }
     else if(strlen($nome) <= 2) {
         echo "<script>
@@ -57,3 +69,4 @@
                 </script>
                 ";
     }
+
