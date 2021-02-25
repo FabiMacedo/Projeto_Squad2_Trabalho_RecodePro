@@ -31,24 +31,42 @@
     ?>
     <div class="container1">
         <h1>Olá, <?php echo $_SESSION['nome'] ?> bem vindo(a),</h1>
-        <h3>Nesta página você terá acesso a trilha de Front-end, bons estudos!</h3>
+        <h3>Nesta página você terá acesso a trilha Introdutória do nosso curso, bons estudos!</h3>
         <div class="cursoconteudo">
             <div class="listaaula">
                 <div class="intro">
                     <h2>1. Introdução</h2>
                     <div class="intro-1">
-                        <img src="./Imagens/cursos/play.png" alt="">
-                        <div>
+                        <a href="front1.php"><img src="./Imagens/cursos/play.png" alt=""></a>
+                        <div class="temaaula">
                             <p>Uma breve história da internet</p>
                             <p>0:25</p>
-                        </div>   
+                        </div>
+                        <a href="#"><img src="./Imagens/cursos/pdf.png" alt=""></a>
                     </div>
                     <div class="intro-1">
-                        <img src="./Imagens/cursos/play.png" alt="">
-                        <div>
-                            <p>Material em desenvolvimento...</p>
+                        <a href="front2.php"><img src="./Imagens/cursos/play.png" alt=""></a>
+                        <div class="temaaula">
+                            <p>Introdução ao Front-end</p>
+                            <p>0:52</p>
+                        </div>
+                        <a href="https://drive.google.com/file/d/1MVkLTG34gNTGGBx0h49ctoRPBMwjkP18/view?usp=sharing"><img src="./Imagens/cursos/pdf.png" alt=""></a>
+                    </div>
+                    <div class="intro-1">
+                        <a href="front3.php"><img src="./Imagens/cursos/play.png" alt=""></a>
+                        <div class="temaaula">
+                            <p>Introdução ao Back-end</p>
+                            <p>0:50</p>
+                        </div>
+                        <a href="https://drive.google.com/file/d/1MfgAi9YZbFrRlM8Wya7hUkD4Ok82M6-r/view?usp=sharing"><img src="./Imagens/cursos/pdf.png" alt=""></a>
+                    </div>
+                    <div class="intro-1">
+                        <a href="#"><img src="./Imagens/cursos/play.png" alt=""></a>
+                        <div class="temaaula">
+                            <p>Material em desenvolvimento, aguarde...</p>
                             <p>0:00</p>
-                        </div>   
+                        </div>
+                        <a href="#"><img src="./Imagens/cursos/pdf.png" alt=""></a>
                     </div>
                 </div>
             </div>
