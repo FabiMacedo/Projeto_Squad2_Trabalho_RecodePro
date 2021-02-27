@@ -25,7 +25,6 @@
 
 .quadrado h1 {
     font-weight: bold;
-    /*text-shadow: black 0.1em 0.1em 0.2em;*/
     font-size: 32px;
     text-align: center;
     margin-top: 30px;
@@ -79,12 +78,34 @@
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
-    width: 15%;
+    width: 25%;
 }
 
 .container .footer .logos img {
     width: 40px;
     height: 40px;
+}
+
+@media (max-width: 769px) {
+    .container .footer .logos {
+        width: 40%;
+    }
+}
+
+@media (max-width: 541px) {
+    .container .footer .logos {
+        width: 60%;
+    }
+
+    .quadrado {
+        width: 400px;
+        height: 420px;
+        margin-top: 100px;
+    }
+
+    .quadrado h1 {
+        margin-top: 0px;
+    }
 }
 
 @media (max-width: 415px) {
@@ -93,6 +114,30 @@
     }
 
     .container .footer .logos {
-        width: 40%;
+        width: 70%;
+    }
+}
+
+@media (max-width: 375px) {
+    .quadrado h1 {
+        font-size: 28px;
+    }
+
+}
+
+@media (max-width: 360px) {
+    .container .footer h1 {
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width: 321px) {
+    .quadrado h1 {
+        font-size: 24px;
+    }
+    
+    .container .footer h1 {
+        font-size: 10px;
     }
 }

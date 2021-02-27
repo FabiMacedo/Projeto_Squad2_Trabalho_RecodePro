@@ -41,14 +41,14 @@
 
 .container {
     align-items: center;
-    margin-top: -210px;
+    margin-top: -150px;
     display: flex;
     flex-direction: column;
 }
 
 .jumbotron .container h1 {
     font-weight: bold;
-    
+    color: #fc6c18;
 }
 
 .jumbotron .container .container-inter p {
@@ -103,7 +103,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
-    width: 15%;
+    width: 20%;
 }
 
 .jumbotron .footer .logos img {
@@ -130,6 +130,10 @@
     .container {
         margin-top: -60px;
     }
+}
+
+.jumbotron .footer .logos {
+    width: 25%;
 }
 
 @media (max-width: 1260px) {
@@ -349,6 +353,7 @@
 
     .jumbotron .footer .logos {
         margin-top: 0;
+        width: 35%;
     }
 
 }
@@ -367,7 +372,7 @@
     }
 
     .jumbotron .footer .logos {
-        width: 30%;
+        width: 40%;
     }
 
     .jumbotron .footer .logos img {
@@ -412,8 +417,8 @@
     }
 
     .jumbotron .footer .logos {
-        margin-top: -10px;
-        width: 20%;
+        margin-top: 0px;
+        width: 40%;
     }
 
     .jumbotron .footer .logos img {
@@ -437,6 +442,10 @@
         font-size: 12px;
     }
 
+    .jumbotron .footer {
+        margin-top: 10px;
+    }
+
     .jumbotron .footer .logos {
         margin-top: 10px;
     }
@@ -452,12 +461,12 @@
 
 @media (max-width: 321px) {
 
-    .jumbotron .Painel-inicial .inicial h1 {
-        font-size: 14px;
+    .jumbotron .Painel-inicial h1 {
+        font-size: 18px;
     }
 
     .jumbotron .Painel-inicial .inicial p {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .jumbotron .container {
@@ -465,7 +474,7 @@
     }
 
     .jumbotron .container h1 {
-        font-size: 14px;
+        font-size: 18px;
     }
 
     .jumbotron .footer h1 {
@@ -473,7 +482,7 @@
     }
 
     .jumbotron .footer .logos {
-        width: 30%;
+        width: 50%;
     }
 
 }

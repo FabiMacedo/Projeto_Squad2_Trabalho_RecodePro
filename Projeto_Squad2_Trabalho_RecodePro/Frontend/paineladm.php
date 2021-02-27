@@ -61,8 +61,37 @@
                                         <div class="alert alert-primary" role="alert">
                                             Não existem usuários cadastrados
                                         </div>
-                                <?php endif; ?>    
-                        </tbody>
+                        <?php endif; ?>
+                    </tbody>
+                </table>
+            </div>
+            <div class="div-table-adm table-wrapper-scroll-y my-custom-scrollbar">
+                <table class="table table-bordered table-hover ">
+                    <caption><strong> LISTA DE ADMINISTRADORES</strong></caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Id</th>
+                            <th scope="col">Nome</th>
+                            <th scope="col">Sobrenome</th>
+                            <th scope="col">Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php if($result->num_rows > 0): ?> 
+                                    <?php while ($administradores = $result2->fetch_assoc()): ?>
+                                        <tr> 
+                                            <th scope="row"><?= $administradores['id_admin']; ?></th>
+                                            <td><?= $administradores['nome']; ?></td>
+                                            <td><?= $administradores['sobrenome']; ?></td>
+                                            <td><?= $administradores['admin_email']; ?></td>
+                                        </tr>
+                                    <?php endwhile; ?>  
+                                    <?php else: ?>    
+                                        <div class="alert alert-primary" role="alert">
+                                            Não existem usuários cadastrados
+                                        </div>
+                        <?php endif; ?>
+                    </tbody>
                 </table>
             </div>
             <div class="div-table-adm table-wrapper-scroll-y my-custom-scrollbar">
@@ -92,7 +121,6 @@
                                                 <a href="javascript: if(confirm('Tem certeza que deseja deletar o comentario <?= $msg['nome']; ?> ?'))
                                                 location.href='deletar.php?usuario=<?php echo $msg['id']; ?> ';">Deletar</a>
                                             </td>
-                                            
                                         </tr>
                                     <?php endwhile; ?>  
                                     <?php else: ?>    

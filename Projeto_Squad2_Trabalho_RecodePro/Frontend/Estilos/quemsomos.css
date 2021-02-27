@@ -172,7 +172,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
-    width: 15%;
+    width: 35%;
 }
 
 .container .footer .logos img {
@@ -224,6 +224,22 @@
     .container-1 .container-4 {
         width: 100%;
     }
+
+    .container2 .container2-childreen1 img {
+        width: 240px;
+    }
+
+    .container2 .container2-childreen1 .links {
+        width: 50%;
+    }
+
+    .container2 .container2-childreen2 img {
+        width: 240px;
+    }
+
+    .container2 .container2-childreen2 .links {
+        width: 50%;
+    }
 }
 
 @media (max-width: 415px) {
@@ -256,8 +272,16 @@
         flex-direction: column;
     }
 
+    .container2 .container2-childreen1 .links {
+        width: 30%;
+    }
+
     .container2 .container2-childreen2 {
         flex-direction: column;
+    }
+
+    .container2 .container2-childreen2 .links {
+        width: 30%;
     }
 
     .container .footer h1 {

@@ -10,16 +10,27 @@
 
     if (strlen($email) > 3 && strlen($senha) > 3) {
 
-        $resultado_consulta = $conn->query("SELECT * from usuarios where email = '$email' AND senha = '$senha'");
-        $usuarios = mysqli_fetch_all($resultado_consulta);
+        $resultado_consulta = "SELECT * FROM usuarios WHERE email = '$email' AND senha ='$senha' LIMIT 1";
+        $resultado_consulta = mysqli_query($conn, $resultado_consulta);
+        $resultado_cadastro = mysqli_fetch_assoc($resultado_consulta);
+        if(isset($resultado_cadastro)) {
+            
+            $_SESSION['nome'] = $resultado_cadastro['nome'];
+            $_SESSION['email'] = $resultado_cadastro['email'];
+            $_SESSION['senha'] = $resultado_cadastro['senha'];
 
-        $_SESSION['nome'] = $usuarios[0][1];
-        $_SESSION['email'] = $usuarios[0][2];
-        $_SESSION['senha'] = $usuarios[0][3];
+            header('Location: ./front.php');
 
-        header('Location: front.php');
-    }
-
-    else {
-    echo "<script>alert('E-mail ou senha inválidos!')location.href = 'login.php'</script>";
+        } else{
+            echo "<script>
+                    alert('Este email não é um usuário cadastrado !!!')
+                    window.location.href = 'login.php'
+                    </script>";
+        }
+    
+    } else {
+    echo "<script>
+        alert('E-mail ou senha inválidos!')
+        location.href = 'login.php'
+        </script>";
     }

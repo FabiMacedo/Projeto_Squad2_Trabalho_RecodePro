@@ -72,7 +72,9 @@
             </div>
             <div class="videoaula">
                 <h1>1. Introdução - Introdução ao Front-end </h1>
-                <iframe width="1550" height="500" src="https://www.youtube.com/embed/EDnXlSiWcMw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/EDnXlSiWcMw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
             </div>
         </div>
         <div class="footer">
@@ -81,6 +83,7 @@
                 <a href="https://www.facebook.com/sinal.code.1" class="facebook"><img src="./Imagens/facebook.png" alt="Facebook - Sinal Code"/></a>
                 <a href="https://www.instagram.com/sinalcode2020/?hl=pt-br" class="instagram"><img src="./Imagens/instagram.png" alt="Instagram - Sinal Code"/></a>
                 <a href="mailto:codesinal@gmail.com?subject=subject text" class="gmail"><img src="./Imagens/gmail.png" alt="Email - Sinal Code"/></a>
+                <a href="./login_admin.php" class="adm"><img src="./Imagens/settings.png" alt="Painel administrador - Sinal Code"/></a>
         </div>
     </div> 
 

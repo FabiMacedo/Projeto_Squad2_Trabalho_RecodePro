@@ -55,7 +55,7 @@
     display: block;
     width: 70%;
     margin: 8px auto 0px;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
 }
 
@@ -114,6 +114,14 @@ input[type=radio] {
 }
 
 @media (max-width: 1025px) {
+    .quadrado {
+        width: 60%;
+        background-color: #fc6c18;
+        border-radius: 6px;
+        padding: 16px;
+        margin: 40px;
+    }
+
     .quadrado a{
         font-size: 14px;
     }
